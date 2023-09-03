@@ -3,11 +3,7 @@ import CustomRoutes from './CustomRoutes';
 import {BrowserRouter as Router, Switch, Route, Link, useHistory, useLocation } from "react-router-dom";   
 import ThemeAction from '../Redux/Actions/ThemeAction'; 
 import { useSelector, useDispatch } from 'react-redux';
-import { ToastContainer } from 'react-toastify'; 
-import AccessForm from '../Dashboard/pages/AccessForm'; 
-import Setup from '../CompanySetup/Setup'; 
-import PAGAMENTO from '../Dashboard/components/Grid/Upload.jsx';   
-import VideoChat from '../General/VideoChat'; 
+import { ToastContainer } from 'react-toastify';   
 import NotFounded from '../General/components/NotFounded';
 import ConnectionBadge from '../General/components/ConnectionBadge';
 import Login from '../AuthenticationScreens/Login';
@@ -99,13 +95,7 @@ document.body.classList.add(themeReducer.color);
     <Route path='/' exact  component={Login }/> 
     <Route path='/signup' exact  component={Signup }/> 
 
-    <Route path='/forgot_password' exact  component={ForgotPassword  }/> 
-    <Route path='/Setup' component={Setup} />
-    <Route path='/pagamento' component={PAGAMENTO} />  
-    <Route path='/access' component={AccessForm} />
-    
-    <Route path='/videochat' component={VideoChat}/> 
-
+    <Route path='/forgot_password' exact  component={ForgotPassword  }/>  
 
     <Route path='/eduall_user_account_verification/:id,:code' component={AccountVerification}/> 
 
