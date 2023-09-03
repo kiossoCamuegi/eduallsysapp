@@ -1,0 +1,1755 @@
+
+
+body .PaperBox .bordered .b0,
+body .PaperBox .bordered .b2{
+    width:100%;
+    height:100%;
+    border:1px solid var(--ed-dark);
+    min-height:97vh; 
+    padding:4px; 
+}
+
+
+
+body .PaperBox .miniguidelines-report table,
+body .PaperBox .miniguidelines-report table tr,
+body .PaperBox .miniguidelines-report table td,
+body .PaperBox .miniguidelines-report table th,
+body .PaperBox .miniguidelines-report table th small{
+   font-size:10px !important; 
+}
+
+ 
+ 
+
+body .PaperBox .d3-text h1{
+    color: white;
+    font-size:35px;
+    text-shadow: var(--ed-shadow-df);
+    background-color: white;
+    margin-top:20px;
+    margin-bottom:0px !important;
+    text-shadow: -1px -1px 0 var(--ed-dark), 1px -1px 0 var(--ed-dark), -1px 1px 0 var(--ed-dark), 1px 1px 0 var(--ed-dark);  
+}
+
+body .PaperBox .bordered .b1{ 
+    width:100%;
+    height:100%;
+    min-height:97vh;
+    border:3px solid var(--ed-dark);
+    padding:4px; 
+}
+ 
+
+body .PaperBox.inputNoBorder input{
+     border: none !important;
+}
+
+body .eduall-print-area{
+    width:100%;
+    height:100%;
+    min-height:90vh;
+    max-height:100%;
+    overflow-y: scroll;
+    display: flex; 
+    justify-content: center;
+    padding:20px;
+    background:var(--ed-dark);
+    position: absolute;
+    top:0px;
+    left:0px;  
+}
+
+body .eduall-print-area.horizontal-view{  
+    width:100%;
+    min-height:calc(100vh - 80px) !important;
+    max-height:calc(100vh - 80px) !important;
+    overflow-x: auto; 
+}
+
+body .eduall-print-area.horizontal-view .hz-box{
+    width:100%;
+    max-width:1300px;  
+}
+
+
+body .eduall-print-area.horizontal-view .asignature{
+    position: relative !important;
+    margin:20px 0px !important;
+    bottom:0px !important;
+    padding:0px !important;
+    height: auto !important;
+}
+
+body .hz-box .paper-container{
+    overflow-x: auto; 
+}
+
+body .eduall-print-area.horizontal-view .box{ 
+    max-width:1300px;
+    width:100%;
+}
+
+body .eduall-print-area .box{
+   width:100%;
+   max-width:890px;
+   min-height:890px;  
+}
+
+body .eduall-print-area.horizontal-view{
+    overflow-x: auto;
+    padding-bottom:20px; 
+}
+
+body .eduall-print-area.horizontal-view .PaperBox{ 
+    min-width:100% !important;
+    min-height:400px !important;
+    max-height:max-content !important; 
+    border-radius:6px; 
+    padding:30px !important;
+    background: var(--ed-white) !important;
+    margin:20px 0px !important;
+}
+
+body  .eduall-print-area.horizontal-view  .print-enrollment-header .ed-space{
+    max-width:100% !important;
+}
+
+body .eduall-print-area .box-x{
+     width:100%;
+     background-color: red !important;
+}
+
+
+body .eduall-print-area .box .paper-container{
+    padding:5px 0px;
+    width:100%;
+    text-transform:none !important ;
+    outline: none !important; 
+}
+
+ 
+body .eduall-print-area .box .PaperBox{
+    width:100%;
+    outline: none !important;
+    min-height:100vh;  
+    background:var(--ed-white); 
+    box-shadow:var(--ed-shadow-df);
+    padding:30px !important; 
+    position: relative;   
+    border-radius:6px; 
+    margin-top:10px;
+    text-transform:none !important ;
+}
+
+ 
+
+body .eduall-print-area .box .PaperBox.pd2{
+    padding:20px  !important;
+}
+ 
+ 
+
+
+@page { margin:25px; }
+
+body .eduall-print-area .box .paper-container-0{
+    padding-top:40px;   
+}
+
+body .eduall-print-area .box .paper-container:last-child{
+    padding-bottom:50px;  
+}
+
+/*** enrollment print */
+
+body  .paper-container .enrollment-print-data{
+    width:100%; 
+    overflow: hidden;
+    margin-bottom:20px;
+    font-size:13px !important;
+}
+
+body  .paper-container .enrollment-print-data .ed-wrap{
+    margin-top:5px;
+}
+
+body  .paper-container .enrollment-print-data h2{
+    font-size:15px !important;
+    font-weight:600; 
+    text-transform: uppercase;  
+    margin:20px 0px;
+}
+
+body  .enrollment-print-data .header-doc{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin:20px 0px; 
+}
+
+
+body  .enrollment-print-data .header-doc img{ 
+    width:100%;
+    object-fit: contain;
+    max-height:120px !important;
+    max-width:200px !important;  
+}
+
+body  .print-enrollment-header{
+    position: sticky;
+    top:-21px;
+    left:0px;
+    width:100%;
+    height:60px;
+    z-index:100;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:var(--ed-dark);  
+    border-bottom:1px solid var(--ed-silver);
+}
+
+body .print-enrollment-header .ed-space{
+    width:100%;
+    max-width:890px;
+    min-height:90px;  
+    align-items: center;
+    height:100%; 
+}
+
+body  .enrollment-print-data .header-print{
+    max-width:500px;
+    font-size:14px;
+}
+ 
+body  .enrollment-print-data .header-print img{
+    max-width:180px;
+    margin-bottom:10px;
+}
+
+
+
+body .paper-container .enrollment-print-data  .flex-div{
+    display: flex;
+    flex-wrap: nowrap;
+    width: auto; 
+    margin-top:15px;
+}
+  
+
+body  .paper-container .enrollment-print-data  .ps{
+    position: relative;    
+}
+
+body  .paper-container .enrollment-print-data .mrl{
+    margin-left:15px;
+}
+
+body  .paper-container .enrollment-print-data .ps::after{
+     content:'';
+     position: absolute;
+     bottom:-2px; 
+     left:0px;
+     width:102%;
+     min-width:20px;
+     height:1px;  
+     background:rgb(160, 160, 160);
+
+}
+ 
+
+body  .paper-container .enrollment-print-data .student,
+body  .paper-container .enrollment-print-data .school{
+    width:100%;  
+}
+
+body  .paper-container .enrollment-print-data .student div,
+body  .paper-container .enrollment-print-data .school  div{
+    min-width:max-content;
+}
+
+body  .paper-container .enrollment-print-data .student .ps,
+body  .paper-container .enrollment-print-data .school .ps{
+    width:92%;
+}
+
+
+/**Enrollment confirmation print  **/
+
+body .report-enrollment-confirmation div{
+    font-size:13px;
+    margin:3px 0px;
+}
+
+body .report-enrollment-confirmation .ed-wrap{
+    margin:5px 0px;
+}
+
+body .report-enrollment-confirmation .data{
+    position: relative;
+    margin-left:10px;
+    margin-right:15px;
+    color: var(--ed-dark);
+}
+
+body .report-enrollment-confirmation .data::after{
+    position: absolute;
+    width: 105%;
+    left:0px;
+    bottom:-2px;
+    height:1px;
+    background-color:rgb(160, 160, 160);
+    content:'';
+}
+
+body .report-enrollment-confirmation .data.sm{
+    min-width:50px;
+    text-align: center;
+}
+
+body .report-enrollment-confirmation .data.fill{
+    width:91%;
+}
+ 
+body .report-enrollment-confirmation .enrolled-confirmation-at{
+    font-size:13px;
+    margin-bottom:10px;
+}
+ 
+body .report-enrollment-confirmation .fw{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+body .report-enrollment-confirmation .enrolled-confirmation-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:50px; 
+    border:1px solid rgb(160, 160, 160);
+    margin:15px 0px;
+}
+
+body .report-enrollment-confirmation .enrolled-confirmation-phones .wd{
+    width:200px; 
+}
+
+body .report-enrollment-confirmation .enrolled-confirmation-mothername .wd{
+    width:360px;
+}
+
+
+body .report-enrollment-confirmation .enrolled-confirmation-row .fw:first-child{
+    margin-left:10px;
+}
+
+body .report-enrollment-confirmation .enrolled-confirmation-row .fw:last-child{
+    margin-right:10px;
+}
+
+body .report-enrollment-confirmation .enrolled-confirmation-row .checkBox{
+    width:30px;
+    height:30px;
+    margin-left:10px;
+    border-radius:3px;
+    border:1px solid rgb(160, 160, 160);
+}
+
+body .report-enrollment-confirmation .enrolled-confirmation-row .enrollment-code{
+    width:200px;
+    height:30px;
+    border:1px solid rgb(160, 160, 160);
+    margin-left:10px;
+    border-radius:3px;
+}
+
+body .report-enrollment-confirmation  .custom-space{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width:100%;
+}
+
+
+body .report-enrollment-confirmation  .custom-space .picture{
+    border-radius: 3px;
+    overflow: hidden;
+    padding:3px;
+    border:1px solid rgb(160, 160, 160);
+    width:130px;
+    height:130px; 
+}
+
+body .report-enrollment-confirmation  .custom-space .picture img{
+    width:100%;
+    height:100%;
+}
+
+body .report-enrollment-confirmation .enrolled-confirmation-name .wd{
+    min-width:55px;
+}
+
+body .report-enrollment-confirmation .enrolled-confirmation-docs .checkBox{
+    width:20px;
+    height:20px;
+    margin-left:10px;
+    border-radius:3px;
+    border:1px solid rgb(160, 160, 160);
+    margin-right:40px;
+}
+
+
+ 
+
+body .paper-container .asignature{
+    position: absolute;
+    bottom:70px;
+    left:0px;
+    width:100%;
+    height:3px; 
+    padding:0px 10px;
+}
+
+
+body .paper-container .asignature.center{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     text-align: center;
+}
+
+body .paper-container .asignature .block{
+    text-align: center;
+}
+
+body .paper-container .asignature .block .line{
+    min-width:290px;
+    background: rgb(160, 160, 160);
+    margin-bottom:10px;
+    height:1px;
+}
+
+body .paper-container .asignature .block  h4{
+    font-size:13px;
+    margin-bottom:30px;
+}
+
+/* Transfer student statement print */
+
+body .transfer-student-statement-print{
+    font-size:12px;
+}
+
+ 
+
+body .transfer-student-statement-print .data{
+    position: relative;
+    margin-left:10px;
+    margin-right:15px;
+    min-width:50px;
+    color: var(--ed-dark);
+}
+
+body .transfer-student-statement-print .tx {
+   min-width: max-content;
+}
+
+body .transfer-student-statement-print .data.fill{
+    width:100%;
+}
+
+body .transfer-student-statement-print .data::after{
+    position: absolute;
+    width: 105%;
+    left:0px;
+    bottom:-2px;
+    height:1px;
+    background-color:rgb(160, 160, 160);
+    content:'';
+}
+
+body .transfer-student-statement-print .description{
+    text-decoration-line:underline;
+    line-height:25px;
+    text-underline-offset: 6px;
+    text-decoration-color:rgb(160, 160, 160);
+}
+
+body .transfer-student-statement-print .text-left h2{
+    font-size:15px !important;
+    font-weight:600; 
+    text-transform: uppercase;  
+}
+ 
+
+body .transfer-student-statement-print .asignature{
+    position: absolute;
+    bottom:60px;
+    left:0px;
+    width:100%;
+    height:3px; 
+    padding:0px 10px;
+}
+
+body .transfer-student-statement-print .asignature .block{
+    text-align: center;
+}
+
+body .transfer-student-statement-print  .asignature .block .line{
+    min-width:340px;
+    background: rgb(160, 160, 160);
+    margin-bottom:10px;
+    height:1px;
+}
+
+body .transfer-student-statement-print  .asignature .block  h4{
+    font-size:13px;
+}
+
+
+body .transfer-student-statement-print .lgm{
+    margin-left:265px; 
+}
+ 
+
+body .transfer-student-statement-print .date{
+    text-align: center;
+}
+
+body .transfer-student-statement-print .date .data::after{
+    height: 3px;
+}
+
+/** student tuition payment report ***/
+
+body .student-tuition-payment-report .fx{
+    display: flex;
+    align-items: center;
+}
+
+body .student-tuition-payment-report .block.minw{
+    min-width:300px;
+}
+
+body .student-tuition-payment-report .doc-compnay-authentication-info{
+    position: absolute;
+    bottom:20px;
+    left:0px;
+    width:100%;
+    text-align: center;
+    color:var(--ed-blue-dark);
+}
+
+
+body .student-tuition-payment-report .dttb tr th,
+body .student-tuition-payment-report .dttb tr td{ 
+   font-size:12px;
+}
+
+body .student-tuition-payment-report .dttb .text-right{
+    text-align: right;
+}
+
+
+body .student-tuition-payment-report .block-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center; 
+}
+
+
+body .student-tuition-payment-report .block-item span{
+    font-size:14px;
+    color:var(--ed-blue-dark);
+    margin-bottom:10px;
+}
+
+/*** Tuition card 2 */
+
+body .paper-container .enrollment-print-data.tuition-document{
+    margin-bottom:2px !important; 
+    min-height:535px !important;
+    position: relative;
+}
+
+body .paper-container .enrollment-print-data.tuition-document:last-child{
+    margin-bottom:0px !important;
+}
+
+
+body .enrollment-print-data.tuition-document .auth-info{
+    position: absolute;
+    bottom:0px;
+    left:0px;
+    width:100%; 
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    text-align: center;
+ }
+
+
+
+body .student-tuition-payment-report-card {
+    font-size:12px; 
+    font-family: 'Times New Roman', Times, serif !important;
+}
+
+
+
+body .student-tuition-payment-report-card  .title-block{
+    min-width:200px;
+}
+
+body .student-tuition-payment-report-card .ed-flex{
+    align-items: unset;
+}
+
+body .PaperBox aside .label{
+    min-width:max-content;  
+}
+
+body .PaperBoxaside .text{
+    width:100%;
+    position: relative;
+    min-height:2px; 
+    padding-left:10px;
+}
+
+
+body .PaperBox
+.text-content.align-space{
+  display: flex; 
+  justify-content: space-between;
+}
+
+body .PaperBox
+aside .text .text-content{
+    position: relative;
+    width:100%; 
+    min-width:max-content;
+}
+
+body .PaperBox
+aside .text .text-content::before{
+     position: absolute;
+     bottom:0px;
+     content:'';
+     left:0px;
+     width:100%;
+     min-height:1px;
+     background: rgb(160, 160, 160);
+}
+
+
+body .student-tuition-payment-report-card 
+aside .text .str{
+    font-weight: 600;
+    margin-left:4px;
+}
+
+body .student-tuition-payment-report-card 
+aside{
+    margin-bottom:10px;
+}
+
+body .PaperBox aside.wrap-4{
+    justify-content: space-between;
+}
+
+body .PaperBox
+aside .bx{ 
+    margin-right:15px; 
+}
+
+body .PaperBox
+aside .bx{
+    width:19%;
+}
+
+body .PaperBox 
+aside.wrap-4 .bx:last-child{ 
+    width:37%;
+    min-width:37%;
+    margin-right: 0px !important;
+}
+
+body .PaperBox
+aside.wrap-2{
+    justify-content: space-between;
+}
+
+body .PaperBox
+aside.wrap-2 .bx{
+    width:22%;
+}
+
+body .PaperBox
+aside.wrap-2 .bx:last-child{
+   width:75%;
+   margin-right: 0px !important;
+}
+
+
+body .student-tuition-payment-report-card 
+ .asignature{
+    display: block !important;  
+    bottom:unset;
+    height: auto;
+    width:100%;
+    position: relative !important;
+}
+
+body .student-tuition-payment-report-card 
+ .asignature h4{
+    font-size:12px !important;
+ }
+
+
+body .student-tuition-payment-report-card 
+ .asignature .ed-space{
+    height:100%; 
+ }
+
+
+ 
+body .student-tuition-payment-report-card 
+.doc-footer{
+    position: relative; 
+}
+
+body .student-tuition-payment-report-card 
+.doc-footer aside{
+   height:100%;  
+   width: max-content;
+   min-height:45px; 
+   display: flex;
+   align-items: flex-end;
+}
+
+
+body .student-tuition-payment-report-card 
+.doc-footer aside .bx{
+    min-width:80px;
+}
+
+
+body .PaperBox
+.doc-footer aside .bx:first-child{
+    min-width:130px;
+}
+
+
+/*** student tuition payment report invoice**/
+
+
+body .student-tuition-payment-report-invoice{ 
+    font-size: 12px !important; 
+    font-family: 'Times New Roman', Times, serif !important; 
+}
+
+body .student-tuition-payment-report-invoice  
+.institute-bank-data{
+   min-height:87px;
+}
+
+body .student-tuition-payment-report-invoice 
+.institute-bank-data h2{
+    font-weight: bold;
+    font-size:12px !important;
+    margin-bottom:5px;
+    margin-top:0px !important;
+}
+
+body .student-tuition-payment-report-invoice 
+.institute-bank-data .ed-flex{
+    font-size:12px;
+    margin-bottom:0px;
+}
+
+
+body .student-tuition-payment-report-invoice
+.table tr,
+body .student-tuition-payment-report-invoice
+.table td,
+body .student-tuition-payment-report-invoice
+.table th{
+    font-size:12px;
+}
+
+body .auth-info{ 
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight:500;
+    font-size:10px;
+    margin-top:30px;
+}
+
+ 
+
+body .student-tuition-payment-report-invoice 
+.std-footer{
+    align-items: flex-start; 
+}
+
+body .student-tuition-payment-report-invoice 
+.table-data{
+    border:1px solid var(--ed-silver);
+    min-height:320px;
+    margin:10px 0px;
+}
+
+body .student-tuition-payment-report-invoice 
+.table-data tbody tr:last-child { 
+    border-bottom:1px solid transparent !important;
+}
+
+body .student-tuition-payment-report-invoice .block-box{
+    border:1px solid var(--ed-silver);
+    padding:10px;
+    min-width:340px;
+}
+
+body .student-tuition-payment-report-invoice .itt-data .institute-logo img{ 
+    max-width:300px;
+    max-height:120px;
+    margin-bottom:5px;
+}
+
+
+body .student-tuition-payment-report-invoice .itt-data h3{
+    margin-bottom:0px;
+    font-size:12px !important;
+    font-weight: bold;
+    margin-top:5px;
+    max-width:350px;
+}
+
+body .student-tuition-payment-report-invoice .itt-data{
+    margin-bottom:20px !important;  
+    max-width:470px;
+}
+
+
+body .student-tuition-payment-report-invoice .block .ed-flex{
+    margin-bottom:4px;
+    font-size:11px !important;
+}
+
+body .student-tuition-payment-report-invoice .block.dtt .ed-flex{
+    font-size:12px !important;
+}
+
+body .student-tuition-payment-report-invoice 
+.std-data{
+    position: relative;
+    min-width:320px;
+    border:1px solid var(--ed-silver);
+}
+
+
+body .student-tuition-payment-report-invoice 
+.std-data ul{
+    padding:0px;
+    list-style: none;
+    padding:10px;
+    padding-top:20px;
+    min-height:100px;
+}
+
+body .student-tuition-payment-report-invoice .ed-space.tp{
+    align-items: flex-start;
+    min-height:335px; 
+    max-height:335px;  
+}
+
+
+
+body .student-tuition-payment-report-invoice .ed-space.tp .space-end{
+    display: flex;
+    justify-content: space-between!important;
+    flex-direction: column;
+    align-items: flex-start; 
+    height:100%;
+    min-height:325px;
+}
+
+
+body .student-tuition-payment-report-invoice .ed-space.tp  .bl-box{
+    height:100%;
+}
+
+body .student-tuition-payment-report-invoice .std-data ul li{
+    margin-bottom:5px;
+}
+
+
+body .student-tuition-payment-report-invoice .std-data .std-data-header{
+    position: absolute;
+    top:-10px;
+    left:10px;
+    background:var(--ed-white);
+    min-height:20px;
+    min-width:130px;
+    font-size:14px !important;
+    font-weight:600; 
+}
+
+
+body .student-tuition-payment-report-invoice .lg-table{
+    min-width:500px; 
+}
+
+body .student-tuition-payment-report-invoice  .sm-table{
+    min-width:200px; 
+}
+
+
+
+body .student-tuition-payment-report-invoice  .auth-info{
+   position: relative !important;
+   bottom:0px;
+   left:0px;
+   width:100%; 
+   background: white;
+   display: flex;
+   justify-content: center;
+   align-items:center;
+   text-align: center; 
+   margin-top:0px !important;
+}
+
+
+ 
+
+/** Enrollment and confirmationprint  */
+ 
+
+body .enrollment-and-confirmation-paper.ed-flex{
+    align-items: unset;
+}
+
+body .enrollment-and-confirmation-paperaside .label{
+    min-width:max-content; 
+}
+
+body .enrollment-and-confirmation-paperaside .text{
+    width:100%;
+    position: relative;
+    min-height:2px; 
+    padding-left:10px;
+}
+
+
+body .enrollment-and-confirmation-paper
+.text-content.align-space{
+  display: flex; 
+  justify-content: space-between;
+}
+
+body .enrollment-and-confirmation-paper
+aside .text .text-content{
+    position: relative;
+    width:100%; 
+    min-width:max-content;
+}
+
+body .enrollment-and-confirmation-paper
+aside .text .text-content::before{
+     position: absolute;
+     bottom:0px;
+     content:'';
+     left:0px;
+     width:100%;
+     min-height:1px;
+     background: rgb(160, 160, 160);
+}
+
+
+body .PaperBox 
+aside .text .str{
+    font-weight: 600;
+    margin-left:4px;
+}
+
+body .enrollment-and-confirmation-paper
+aside{
+    margin-bottom:10px;
+}
+
+body .PaperBox 
+aside.wrap-4{
+    justify-content: space-between;
+}
+
+body .enrollment-and-confirmation-paper
+aside .bx{ 
+    margin-right:15px; 
+}
+
+body .PaperBox
+aside .bx{
+    width:19%;
+}
+
+body .PaperBox 
+aside.wrap-4 .bx:last-child{ 
+    width:37%;
+    min-width:37%;
+    margin-right: 0px !important;
+}
+
+body .enrollment-and-confirmation-paper
+aside.wrap-2{
+    justify-content: space-between;
+}
+
+body .enrollment-and-confirmation-paper
+aside.wrap-2 .bx{
+    width:22%;
+}
+
+body .enrollment-and-confirmation-paper
+aside.wrap-2 .bx:last-child{
+   width:75%;
+   margin-right: 0px !important;
+}
+ 
+
+body .enrollment-and-confirmation-paper
+ .asignature h4{
+    font-size:12px !important;
+}
+
+
+body .enrollment-and-confirmation-paper .checkbox{
+    border:1px solid var(--ed-dark);
+    width:20px;
+    height:18px;
+    margin-left:10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+body .enrollment-and-confirmation-paper .checkbox svg{
+    margin:0px !important;
+    width:18px;
+    height:18px; 
+}
+
+body .enrollment-and-confirmation-paper .checkbox div{
+    display: none !important;
+}
+
+ .enrollment-and-confirmation-paper
+.checkbox.checked div{
+    display: block !important;
+}
+
+body .enrollment-and-confirmation-paper .block-header-table{
+  padding:10px 5px;
+  border:1px solid var(--ed-dark-light);
+  margin-bottom:20px;
+  font-size:14px !important;
+}
+
+
+
+body .enrollment-and-confirmation-paper .inputbox{
+    border:1px solid var(--ed-dark);
+    width:120px;
+    height:18px;
+    margin-left:10px;
+    padding:7px;
+    text-align: center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+body .enrollment-and-confirmation-paper .inputbox div{
+    font-size:12px !important;
+}
+
+body .enrollment-and-confirmation-paper .ed-space-header{
+   align-items: flex-end !important;
+   margin-bottom:30px;
+}
+
+
+body .enrollment-and-confirmation-paper .ed-space-header .col.mb0{
+    margin-bottom:0px !important;
+}
+
+body .enrollment-and-confirmation-paper .block-picture{
+      height:140px;
+      width:140px; 
+      min-width:140px;
+      overflow: hidden;
+      border:1px solid var(--ed-dark-light) !important;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+
+body .enrollment-and-confirmation-paper .block-picture img{
+      height:137px;
+      width:137px;  
+      margin:0px !important;
+}
+
+
+ body .enrollment-and-confirmation-paper h2.subtitle{ 
+      text-transform: unset !important;
+      text-decoration: underline !important;
+ }
+
+
+ body .enrollment-and-confirmation-paper  .delivered-files .el{
+    margin-bottom:10px;
+  }
+
+
+  body .enrollment-and-confirmation-paper 
+   .delivered-files .block{
+      width:350px;
+      min-width:350px;
+      border:2px; 
+  }
+
+  body .enrollment-and-confirmation-paper 
+  .delivered-files .block.ml-4{
+    margin-left:40px;
+  }
+
+
+
+  body .enrollment-and-confirmation-paper .col.fill .text{ 
+    width:100%; 
+  }
+
+ 
+
+  body .enrollment-and-confirmation-paper .col.wrap-2.hth .bx:first-child{
+    min-width:60%;
+  }
+
+  
+  body .enrollment-and-confirmation-paper .col.wrap-2.hthh .bx:first-child{
+    min-width:67%;
+  }
+
+  body .enrollment-and-confirmation-paper .col.wrap-2 .bx{
+     width:48%        ;
+  }
+
+  body .enrollment-and-confirmation-paper .col .label{
+    min-width:calc(max-content + 20px) !important; 
+  }
+
+  body .enrollment-and-confirmation-paper .col.wrap-2 .bx .text{
+    width:100%; 
+  }
+
+
+  body .PaperBox .col.wrap-3 .bx{
+    min-width:33%;
+  }
+
+
+  body .PaperBox .col.wrap-3 .bx:nth-child(1){
+     width:40% !important; 
+  }
+
+  
+  body .PaperBox .col.wrap-3 .bx:nth-child(2){
+    width:15% !important; 
+ }
+
+ 
+ body .PaperBox .col.wrap-3 .bx:nth-child(3){
+    width:41% !important; 
+ }
+
+ body .PaperBox .col.wrap-3 .bx .text{
+    width:100%;
+ }
+
+ body .enrollment-and-confirmation-paper .block.block-header{
+    min-width:200px;
+ }
+
+ 
+
+ body .enrollment-and-confirmation-paper .asignature{
+     bottom:100px; 
+}
+
+body .enrollment-and-confirmation-paper .asignature .auth-info{
+    margin-top:20px;
+}
+
+body .enrollment-and-confirmation-paper span,
+body .enrollment-and-confirmation-paper span.str,
+body .enrollment-and-confirmation-paper .label,
+body .enrollment-and-confirmation-paper .mt-4.chcd span,
+body .enrollment-and-confirmation-paper .mt-4.chcd div{
+    font-size:12px !important;
+}
+
+ 
+
+
+/* Declaration  **/
+
+body .paper-container .big-title{ 
+    font-size: 50px;
+    text-transform: uppercase;
+    color: black;
+    font-size: 34px;
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: white;
+    margin-top:20px;
+}
+
+
+body .declaration_report{
+    font-size:13px; 
+}
+ 
+body .paper-container .asignature .block h3{
+    font-size:16px !important;
+    font-weight:bold; 
+}
+
+body .paper-container .border-1{
+    min-height:99vh;
+    background:#000;
+    width:100%; 
+    padding:1px;
+    z-index: 19;
+    position: relative;
+}
+
+body .paper-container .border-2 {
+    height: 98.8vh;
+    background: var(--white);
+    width: 100%;
+    padding: 3px; 
+}
+
+body .paper-container .border-3{
+    height: 98.3vh;
+    background: #000;
+    width: 100%;
+    padding:4px;
+}
+
+body .paper-container .border-2 .enrollment-print-data{
+    background: white !important;
+    padding:20px;
+    height:100%;
+    
+}
+
+
+
+body .eduall-print-hr-area .print-enrollment-header .ed-space{
+    width:100%;
+    max-width:100%; 
+    align-items: center;
+    height:100%; 
+}
+
+body .eduall-print-hr-area .PaperBox{
+    width:100%;
+    outline: none !important;
+    min-height:600px !important;  
+    background:var(--ed-white); 
+    box-shadow:var(--ed-shadow-df);
+    padding:30px !important; 
+    position: relative;   
+    border-radius:6px;
+}
+
+body .eduall-print-hr-area .PaperBox
+.enrollment-print-data{
+   margin-bottom:20px !important;
+}
+
+ /*Terms emition */
+
+ 
+body .report-term-emition div{
+    font-size:12px;
+    margin:3px 0px;
+}
+
+body .report-term-emition table,
+body .report-term-emition  table th,
+body .report-term-emition table tr,
+body .report-term-emition  table td,
+body .report-term-emition table tr td,
+body .report-term-emition  table span,
+body .report-term-emition table strong,
+body .report-term-emition  table p,
+body .report-term-emition  table div{ 
+      font-size:12px !important;
+}
+
+body .report-term-emition .student-data{
+   margin-bottom:20px !important;
+}
+  
+  body .report-term-emition .ed-wrap{
+    margin:5px 0px;
+  }
+  
+  body .report-term-emition .data{
+    position: relative;
+    margin-left:10px;
+    margin-right:15px;
+    color: var(--ed-dark);
+  }
+  
+  body .report-term-emition .data::after{
+    position: absolute;
+    width: 105%;
+    height:1px;
+    left:0px;
+    bottom:-3px;
+    height:1px;
+    border:1px dashed rgb(160, 160, 160);;
+    content:'';
+  }
+  
+  body .report-term-emition .data.sm{
+    min-width:50px;
+    text-align: center;
+  }
+  
+  body .report-term-emition .data.fill{
+    width:91%;
+  }
+  
+  body .report-term-emition .enrolled-confirmation-at{
+    font-size:13px;
+    margin-bottom:10px;
+  }
+  
+  body .report-term-emition .fw{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-weight:550;
+  }
+  
+  body .report-term-emition .enrolled-confirmation-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:50px; 
+    border:1px solid rgb(160, 160, 160);
+    margin:15px 0px;
+  }
+  
+  body .report-term-emition .enrolled-confirmation-phones .wd{
+    width:200px; 
+  }
+  
+  body .report-term-emition .enrolled-confirmation-mothername .wd{
+    width:360px;
+  }
+  
+  
+  body .report-term-emition .enrolled-confirmation-row .fw:first-child{
+    margin-left:10px;
+  }
+  
+  body .report-term-emition .enrolled-confirmation-row .fw:last-child{
+    margin-right:10px;
+  }
+  
+  body .report-term-emition .enrolled-confirmation-row .checkBox{
+    width:30px;
+    height:30px;
+    margin-left:10px;
+    border-radius:3px;
+    border:1px solid rgb(160, 160, 160);
+  }
+  
+  body .report-term-emition .enrolled-confirmation-row .enrollment-code{
+    width:200px;
+    height:30px;
+    border:1px solid rgb(160, 160, 160);
+    margin-left:10px;
+    border-radius:3px;
+  }
+  
+  body .report-term-emition  .custom-space{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width:100%;
+  }
+  
+  
+  body .report-term-emition  .custom-space .picture{
+    border-radius: 3px;
+    overflow: hidden;
+    padding:3px;
+    border:1px solid rgb(160, 160, 160);
+    width:130px;
+    height:130px; 
+  }
+  
+  body .report-term-emition  .custom-space .picture img{
+    width:100%;
+    height:100%;
+  }
+  
+  body .report-term-emition .enrolled-confirmation-name .wd{
+    min-width:55px;
+  }
+  
+  body .report-term-emition .enrolled-confirmation-docs .checkBox{
+    width:20px;
+    height:20px;
+    margin-left:10px;
+    border-radius:3px;
+    border:1px solid rgb(160, 160, 160);
+    margin-right:40px;
+  }
+  
+  body .report-term-emition .w3{
+    width:33%;
+    min-width:31%; 
+    flex-wrap: nowrap !important;
+  }
+
+  body .report-term-emition .w2{
+    width:48%;
+    min-width:48%; 
+    flex-wrap: nowrap !important;
+  }
+
+  body .report-term-emition .w2 .data{
+    min-width:87%;  
+  }
+
+  body .report-term-emition .w3 .wd{
+     min-width: max-content !important;
+     font-weight: 550;
+  }
+
+  body .report-term-emition .w3 .data{
+    min-width:88%;  
+  }
+
+  body .report-term-emition .wd{
+     font-weight: 550 !important;
+  }
+
+  body .report-term-emition .data{
+    font-weight:normal !important;
+}
+
+
+/* Student transfer **/
+
+
+
+
+body .std-trp-body{
+    padding:0px 40px;
+    font-size:12px !important;
+    position: relative; 
+    height:100%;
+}
+
+body .student_transfer-document{ 
+    position: relative;
+    text-transform:none !important ;
+}
+
+
+body .student_transfer-document 
+.asignature{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    bottom:50px !important;
+}
+
+body .student_transfer-document 
+.asignature .line{
+    max-width:300px;
+}
+
+body .PaperBox .declaration_report ul,
+body .PaperBox .declaration_report ul li,
+body .PaperBox .std-trp-body ul,
+body .PaperBox .std-trp-body ul li{
+    list-style:square !important;
+}
+
+
+body .PaperBox .declaration_report ul li .b,
+body .std-trp-body ul li .b{
+    width:100%;
+    min-width: 100px; 
+     display: flex;
+     border:1px dotted var(--ed-dark);    
+}
+
+body .PaperBox .declaration_report ul li .sub,
+body .PaperBox .declaration_report ul li .mrk,
+body .std-trp-body ul li .sub,
+body .std-trp-body ul li .mrk{
+     min-width: max-content !important;
+}
+
+body .PaperBox .declaration_report ul li .sub,
+body .std-trp-body ul li .sub{
+    padding-right:10px;
+}
+
+
+body .PaperBox .declaration_report ul li .mrk,
+body .std-trp-body ul li .mrk{
+    padding-left:10px;
+}
+
+body .PaperBox .declaration_report  ol,
+body .std-trp-body ol{
+    padding:0px !important;
+}
+
+body .PaperBox .declaration_report ol li,
+body .std-trp-body ol li{
+    margin:5px 0px;
+}
+
+body .PaperBox .declaration_report ol li .text,
+body .std-trp-body ol li .text{
+    margin-left:5px;
+}
+
+body .PaperBox .declaration_report ul li .sub .dt,
+body .std-trp-body ul li .sub .dt{
+      width:4px;
+      height:4px;
+      border-radius:100%;
+      margin-right:10px;
+      background: var(--ed-dark);
+}
+
+body .PaperBox .declaration-report-content{
+    padding:0px 40px;   
+}
+
+
+body  .paper-container .b2{
+    position: relative !important;
+}
+
+body  .paper-container .declaration_report .asignature{
+    bottom:60px !important;
+}
+
+/*Mini pautas **/
+
+.paper-container.fl {
+    padding:20px;
+    background:var(--ed-white);
+    border-radius:6px;
+    box-shadow:var(--ed-shdow-df);
+ }
+ 
+
+.paper-container.fl table   .ed-space{
+   margin:0px !important;
+}
+
+.paper-container.fl table   select{
+    padding:0px !important;
+    border:none !important;
+    background:transparent !important;
+}
+
+
+
+.paper-container.fl   .block-dets{
+    margin-top:40px;
+}
+
+.paper-container.fl .ed-space{ 
+    width:100%;
+    margin:10px 0px;
+}
+
+.paper-container.fl .nb-item .line{
+    width:250px;
+    height:1px;
+    background:var(--ed-dark); 
+    margin-top:10px;
+    margin-left:5px;
+    min-width:200px;
+} 
+
+
+.paper-container.fl .block-line   h3{
+    font-size:14px;
+    margin:25px 0px;
+    font-weight:bold;
+}
+
+.paper-container.fl .block-line   .line{
+    width:300px;
+    min-width:200px;
+    height:1px;
+    background:var(--ed-dark);
+    margin-top:10px; 
+}
+
+
+/* Pauta geral */ 
+
+.paper-container.fl1 table h1{
+      font-size:20px;
+      margin:0px;
+      padding:0px;
+      font-weight: bolder !important;
+} 
+
+.paper-container.fl1 {
+    padding:20px;
+    background:var(--ed-white);
+    border-radius:6px;
+    box-shadow:var(--ed-shdow-df);
+ }
+ 
+
+.paper-container.fl1 table   .ed-space{
+   margin:0px !important;
+}
+
+.paper-container.fl1 table   select{
+    padding:0px !important;
+    border:none !important;
+    background:transparent !important;
+}
+
+
+
+.paper-container.fl1   .block-dets{
+    margin-top:40px;
+}
+
+.paper-container.fl1 .ed-space{ 
+    width:100%;
+    margin:10px 0px;
+}
+
+.paper-container.fl1 .nb-item .line{
+    width:250px;
+    height:1px;
+    background:var(--ed-dark); 
+    margin-top:10px;
+    margin-left:5px;
+    min-width:200px;
+} 
+
+
+.paper-container.fl1 .footer-content   h3{
+    font-size:14px;
+    margin:25px 0px;
+    font-weight:bold;
+}
+
+.paper-container.fl1 .block-line   .line{
+    width:300px;
+    min-width:200px;
+    height:1px;
+    background:var(--ed-dark);
+    margin-top:10px; 
+}
+
+.paper-container.fl1 .small-line-text   h3{
+    font-size:14px; 
+    margin:0px;
+    font-weight:bold;
+}
+
+.paper-container.fl1 .small-line-text   .line{
+    width:100px;
+    min-width:100px;
+    height:1px;
+    background:var(--ed-dark);
+    margin-top:10px; 
+}
+
+
+/*Student marks **/
+
+.studentmarks-print-data { 
+  min-height:98vh;
+}
+
+
+.studentmarks-print-data .footer-content   h3{
+    font-size:14px;
+    margin:25px 0px;
+    font-weight:bold;
+}
+
+.studentmarks-print-data .footer-content   .line{
+    width:300px;
+    min-width:200px;
+    height:1px;
+    background:var(--ed-dark);
+    margin-top:10px; 
+}
+
+/*Schoolmarks */
+
+.paper-container.fl2{
+    padding:20px;
+    background:var(--ed-white);
+    border-radius:6px;
+    box-shadow:var(--ed-shdow-df);
+ }
+ 
+ .paper-container.fl2 .footer-content   h3{
+    font-size:14px;
+    margin:25px 0px;
+    font-weight:bold;
+}
+
+.paper-container.fl2  .footer-content   .line{
+    width:300px;
+    min-width:200px;
+    height:1px;
+    background:var(--ed-dark);
+    margin-top:10px; 
+}
+
+ 

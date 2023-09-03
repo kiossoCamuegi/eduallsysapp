@@ -1,0 +1,1458 @@
+ body #eduall .ag-body .ag-body-viewport .ag-center-cols-viewport .ag-center-cols-container.tb {
+    border:10px solid green !important;
+    width:100% !important;
+    min-width:100% !important;
+    max-width:100% !important;
+ }
+
+
+body .table-primary h1{
+    background-color:var(--ed-purple-light) !important;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+
+
+
+/** dark blue  theme **/
+
+body.theme-color-blue .signin-area{  
+    background:linear-gradient(to top, transparent 50%, var(--ed-blue) 50%) !important; 
+}
+
+body.sidebar-dark-main #eduall .dashboard-container.theme-mode-dark-blue #sidebar-left,
+body .dashboard-container.theme-mode-dark-blue  .dashboard-pages{
+  background:#373F51 !important; 
+}
+
+body .dashboard-container.theme-mode-dark-blue  .toggle-sidebar-right{
+    border:2px solid #161c29;
+    background:#373F51 !important;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+body.theme-mode-dark-blue .offcanvas{
+    background-color: var( --ed-blue-dark) !important;
+    color:#cecbcb;
+}
+
+body.theme-mode-dark-blue .container-theme .sidebar-boxes .box .box-option{
+     background-color: #111727 !important;
+     border-color: #404c6a !important;
+}
+
+body.theme-mode-dark-blue.container-theme ul li .ed-flex{
+    border-color: #404c6a !important;
+    box-shadow: 2px 2px 2px 1px rgba(39, 42, 53, 0.2);
+}
+
+body.theme-mode-dark-blue.container-theme::-webkit-scrollbar-thumb{
+    background:#161c29 !important;
+}
+
+
+body.theme-mode-dark-blue.container-theme svg{
+    fill:rgb(181, 181, 181) !important;
+}
+
+body .dashboard-container.theme-mode-dark .sidebar-right .sidebar-box,
+body .dashboard-container.theme-mode-dark-blue  .sidebar-right  .sidebar-box{ 
+  border-bottom:1px solid #404c6a  !important;
+}
+
+ 
+
+body .dashboard-container.theme-mode-dark-blue  .sidebar-right{
+    background-color: rgb(19, 18, 18);
+}
+
+body .dashboard-container.theme-mode-dark-blue  .ed-container-navbar,
+body .dashboard-container.theme-mode-dark-blue  #dashboard-sidebar menu{
+    background:#111727 !important;
+    border-color:#111727 !important;
+}
+
+body .dashboard-container.theme-mode-dark-blue  .ed-container-navbar a,
+body .dashboard-container.theme-mode-dark-blue  #dashboard-sidebar menu h2,
+body .dashboard-container.theme-mode-dark-blue  #dashboard-sidebar menu h1{
+    color:#cecbcb;
+}
+
+body .dashboard-container.theme-mode-dark-blue  #dashboard-sidebar menu li a{
+    color:#b5b6b7;
+}
+
+body .dashboard-container.theme-mode-dark-blue  #dashboard-sidebar menu li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: silver; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+
+body .dashboard-container.theme-mode-dark-blue  .chart-container,
+body .dashboard-container.theme-mode-dark-blue  .boxItem,
+body .dashboard-container.theme-mode-dark-blue  .honor-board-list .honor-board-box,
+body .dashboard-container.theme-mode-dark-blue .ed-edusers-cards .ed-eduser-box{
+    background: #1f2430 !important;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2) !important;
+    color: rgb(226, 223, 223);
+}
+
+body .dashboard-container.theme-mode-dark-blue  .honor-board-list .honor-board-box h2,
+body .dashboard-container.theme-mode-dark-blue  .honor-board-list .honor-board-box span,
+body .dashboard-container.theme-mode-dark-blue .ed-edusers-cards .ed-eduser-box,
+body .dashboard-container.theme-mode-dark-blue .ed-edusers-cards .ed-eduser-box a,
+body .dashboard-container.theme-mode-dark-blue .ed-edusers-cards .ed-eduser-box h5{
+    color:rgb(181, 181, 181) !important;
+}
+
+body .dashboard-container.theme-mode-dark-blue .ed-edusers-cards .ed-eduser-box img{
+    border-color:#373F51 !important;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+body .dashboard-container.theme-mode-dark-blue  .boxItem input,
+body .dashboard-container.theme-mode-dark-blue  .boxItem select,
+body .dashboard-container.theme-mode-dark-blue  .ed-space input,
+body .dashboard-container.theme-mode-dark-blue  .ed-space select{
+    background: #1f2430 !important; 
+    color: rgb(226, 223, 223);   
+    border-color:#495164 !important;
+}
+
+body .dashboard-container.theme-mode-dark-blue  .ed-space svg{
+    fill:rgb(181, 181, 181) !important;
+}
+
+body .dashboard-container.theme-mode-dark-blue  .ed-space .btn svg{
+    fill:var(--ed-white) !important;
+}
+
+
+body .dashboard-container.theme-mode-dark-blue .ed-edusers-cards .ed-eduser-box ul li{
+    color: #7b8294 !important;
+    border-color: #7b8294 !important;
+}
+
+body .dashboard-container.theme-mode-dark-blue .ed-edusers-cards .ed-eduser-box .cover 
+.cover-over .contacts ol li a svg{
+    fill:#ffff !important;
+} 
+
+body .dashboard-container.theme-mode-dark-blue  .chart-container text span,
+body .dashboard-container.theme-mode-dark-blue  .chart-container text tspan,
+body .dashboard-container.theme-mode-dark-blue  .boxItem text span,
+body .dashboard-container.theme-mode-dark-blue  .boxItem text tspan,
+body .dashboard-container.theme-mode-dark-blue  .boxItem text,
+body .dashboard-container.theme-mode-dark-blue  .chart-container text ,
+body .dashboard-container.theme-mode-dark-blue  .chart-container span,
+body .dashboard-container.theme-mode-dark-blue  .chart-container tspan,
+body .dashboard-container.theme-mode-dark-blue  .boxItem span,
+body .dashboard-container.theme-mode-dark-blue  .eduall-table  h6,
+body .dashboard-container.theme-mode-dark-blue  .eduall-table table td,
+body .dashboard-container.theme-mode-dark-blue  .eduall-table table th,
+body .dashboard-container.theme-mode-dark-blue  .boxItem tspan{
+    color:rgb(226, 223, 223) !important;
+}
+
+body .dashboard-container.theme-mode-dark-blue  .eduall-table{
+    overflow: hidden;
+    border-radius:6px;
+}
+
+body .dashboard-container.theme-mode-dark-blue  .eduall-table table{ 
+    background: #1f2430 !important;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2) !important;
+}
+
+body .dashboard-container.theme-mode-dark-blue 
+.tss-tlx3x1-MUIDataTableToolbar-root,
+body .dashboard-container.theme-mode-dark-blue  
+.eduall-table table .MuiTableHead-root th{
+    background: #161c29 !important;
+
+}
+
+body .dashboard-container.theme-mode-dark-blue  .eduall-table svg{
+    fill:rgb(181, 181, 181) !important;
+}
+
+
+body .dashboard-container.theme-mode-dark-blue  .eduall-table table td{
+    border-color:#2c303a ; 
+}
+
+body .dashboard-container.theme-mode-dark-blue  .eduall-table .MuiTablePagination-selectLabel,
+body .dashboard-container.theme-mode-dark-blue  .eduall-table .MuiTablePagination-displayedRows,
+body .dashboard-container.theme-mode-dark-blue  .eduall-table .MuiTablePagination-select,
+body .dashboard-container.theme-mode-dark-blue  .eduall-table .MuiTablePagination-selectLabel p{
+    color:rgb(181, 181, 181) !important; 
+}
+
+body .dashboard-container.theme-mode-dark-blue 
+.apexcharts-yaxis-texts-g tspan,
+body .dashboard-container.theme-mode-dark-blue .boxItem 
+.apexcharts-xaxis g text tspan{
+    fill:rgb(181, 181, 181) !important; 
+}
+
+body .dashboard-container.theme-mode-dark-blue .bg-light{
+    background:#373F51 !important;
+    border-color:rgba(28, 27, 28, 0.8) !important;
+    color:var(--ed-white) !important;
+    fill:var(--ed-white) !important;
+}
+
+
+
+
+/*** dark theme */
+
+
+body .dashboard-container.theme-mode-dark  .sidebar-right{
+    background:var(--ed-dark-light) !important;
+}
+
+body.theme-mode-dark.sidebar-dark-main #eduall .dashboard-container.theme-mode-dark 
+#dashboard-sidebar #sidebar-left,
+body .dashboard-container.theme-mode-dark  .dashboard-pages{
+    background:var(--ed-dark) !important;
+}
+  
+  body .dashboard-container.theme-mode-dark  .toggle-sidebar-right{
+      border:2px solid #3f4145;
+      background:var(--ed-dark) !important;
+      box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  body .dashboard-container.theme-mode-dark  .sidebar-right{
+      background-color: rgb(19, 18, 18);
+  }
+  
+  body .dashboard-container.theme-mode-dark  .ed-container-navbar,
+  body .dashboard-container.theme-mode-dark  #dashboard-sidebar menu{
+      background:var(--ed-dark-light) !important;
+      border-color:var(--ed-dark-light) !important;
+  }
+
+
+  body.theme-mode-dark .offcanvas{
+    background:var(--ed-dark-light) !important;
+    color:#cecbcb;
+  }
+
+  body.theme-mode-dark .container-theme .sidebar-boxes 
+  .box.dark-simple .left{
+    background:var(--ed-dark-light) !important;
+  }
+
+  body.theme-mode-dark .container-theme .sidebar-boxes .box .box-option{
+    background:var(--ed-dark) !important;
+    border-color: rgb(59, 59, 59);
+  }
+
+
+
+
+  body.theme-mode-dark .dashboard-container.theme-mode-dark  .month{
+     border-color: rgb(56, 56, 56) !important;
+     box-shadow: 2px 2px 2px 1px rgba(15, 15, 15, 0.2) !important;
+  }
+
+
+  body.theme-mode-dark .container-theme ul li .ed-flex{
+      border-color: var(--ed-dark) !important;
+      box-shadow: 2px 2px 2px 1px rgba(33, 32, 32, 0.2);
+  }
+
+  
+  body .dashboard-container.theme-mode-dark  .ed-container-navbar a,
+  body .dashboard-container.theme-mode-dark  #dashboard-sidebar menu h2,
+  body .dashboard-container.theme-mode-dark  #dashboard-sidebar menu h1{
+      color:#cecbcb;
+  }
+  
+  body .dashboard-container.theme-mode-dark  #dashboard-sidebar menu li a{
+      color:#b5b6b7;
+  }
+  
+  body .dashboard-container.theme-mode-dark  #dashboard-sidebar menu li::before {
+      content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+      color: silver; /* Change the color */
+      font-weight: bold; /* If you want it to be bold */
+      display: inline-block; /* Needed to add space between the bullet and the text */
+      width: 1em; /* Also needed for space (tweak if needed) */
+      margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+  
+  
+  body .dashboard-container.theme-mode-dark  .honor-board-list .honor-board-box,
+  body .dashboard-container.theme-mode-dark  .chart-container,
+  body .dashboard-container.theme-mode-dark  .boxItem,
+  body.theme-mode-dark .offcanvas,
+  body.theme-mode-dark .boxItem,
+  body .dashboard-container.theme-mode-dark .ed-edusers-cards .ed-eduser-box{
+      background:var(--ed-dark-light) !important;
+      box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2) !important;
+      color: rgb(226, 223, 223);
+  }
+  
+
+  body.theme-mode-dark .offcanvas-backdrop.fade.show, 
+  body.theme-mode-dark .modal-backdrop.fade.show, 
+  body.theme-mode-dark .MuiDialog-root .MuiBackdrop-root {
+    opacity: 1 !important;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: linear-gradient(135deg, rgba(8, 8, 8, 0.1), rgba(12, 12, 12, 0.2)) !important;
+}
+
+
+  body .dashboard-container.theme-mode-dark  .honor-board-list .honor-board-box h2,
+  body .dashboard-container.theme-mode-dark  .honor-board-list .honor-board-box span,
+  body .dashboard-container.theme-mode-dark .ed-edusers-cards .ed-eduser-box,
+  body .dashboard-container.theme-mode-dark .ed-edusers-cards .ed-eduser-box a,
+  body .dashboard-container.theme-mode-dark .ed-edusers-cards .ed-eduser-box h5{
+      color:rgb(181, 181, 181) !important;
+  }
+ 
+ 
+  
+  body .dashboard-container.theme-mode-dark-blue .flex-buttons .btn, 
+  body .dashboard-container.theme-mode-dark .flex-buttons  .btn{
+    box-shadow:0 3px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  body .dashboard-container.theme-mode-dark .search-box,
+  body .dashboard-container.theme-mode-dark .small-student-card{
+    border-color:#48484a !important;
+  }
+
+
+  body .dashboard-container.theme-mode-dark .search-box input,
+  body .dashboard-container.theme-mode-dark .small-student-card{
+    background: rgb(51, 51, 51) !important;
+  }
+
+  body .dashboard-container.theme-mode-dark .ed-edusers-cards .ed-eduser-box img{
+      border-color:#373F51 !important;
+      box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  body .dashboard-container.theme-mode-dark  .boxItem input,
+   body .dashboard-container.theme-mode-dark  .boxItem select{
+    background:#343638 !important; 
+    color: rgb(226, 223, 223);   
+    border-color:#48484a !important;
+}
+  body .dashboard-container.theme-mode-dark  .ed-space input,
+  body .dashboard-container.theme-mode-dark  .ed-space select{
+    background:var(--ed-dark-light) !important;
+      color: rgb(226, 223, 223);   
+      border-color:#48484a !important;
+  }
+  
+  body .dashboard-container.theme-mode-dark  .ed-space svg{
+      fill:rgb(181, 181, 181) !important;
+  }
+  
+  body .dashboard-container.theme-mode-dark  .ed-space .btn svg{
+      fill:var(--ed-white) !important;
+  }
+  
+  
+  body .dashboard-container.theme-mode-dark .ed-edusers-cards .ed-eduser-box ul li{
+      color: #7b8294 !important;
+      border-color: #7b8294 !important;
+  }
+  
+  body .dashboard-container.theme-mode-dark .ed-edusers-cards .ed-eduser-box .cover 
+  .cover-over .contacts ol li a svg{
+      fill:#ffff !important;
+  }
+  
+  
+  body .dashboard-container.theme-mode-dark  .chart-container text span,
+  body .dashboard-container.theme-mode-dark  .chart-container text tspan,
+  body .dashboard-container.theme-mode-dark  .boxItem text span,
+  body .dashboard-container.theme-mode-dark  .boxItem text tspan,
+  body .dashboard-container.theme-mode-dark  .boxItem text,
+  body .dashboard-container.theme-mode-dark  .chart-container text ,
+  body .dashboard-container.theme-mode-dark  .chart-container span,
+  body .dashboard-container.theme-mode-dark  .chart-container tspan,
+  body .dashboard-container.theme-mode-dark  .boxItem span,
+  body .dashboard-container.theme-mode-dark  .eduall-table  h6,
+  body .dashboard-container.theme-mode-dark  .eduall-table table td,
+  body .dashboard-container.theme-mode-dark  .eduall-table table th,
+  body .dashboard-container.theme-mode-dark  .boxItem tspan{
+      color:rgb(226, 223, 223) !important;
+  }
+  
+  body .dashboard-container.theme-mode-dark  .eduall-table{
+      overflow: hidden;
+      border-radius:6px;
+  }
+  
+  body .dashboard-container.theme-mode-dark  .eduall-table table{ 
+    background:var(--ed-dark-light) !important;
+      box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2) !important;
+  }
+  
+  body .dashboard-container.theme-mode-dark 
+  .tss-tlx3x1-MUIDataTableToolbar-root,
+  body .dashboard-container.theme-mode-dark  
+  .eduall-table table .MuiTableHead-root th{
+      background: #343638 !important; 
+  }
+  
+  body .dashboard-container.theme-mode-dark  .eduall-table svg{
+      fill:rgb(181, 181, 181) !important;
+  }
+  
+  
+  body .dashboard-container.theme-mode-dark  .eduall-table table td{
+      border-color:#37393d ; 
+  }
+  
+  body .dashboard-container.theme-mode-dark  .eduall-table .MuiTablePagination-selectLabel,
+  body .dashboard-container.theme-mode-dark  .eduall-table .MuiTablePagination-displayedRows,
+  body .dashboard-container.theme-mode-dark  .eduall-table .MuiTablePagination-select,
+  body .dashboard-container.theme-mode-dark  .eduall-table .MuiTablePagination-selectLabel p{
+      color:rgb(181, 181, 181) !important; 
+  }
+  
+  body .dashboard-container.theme-mode-dark 
+  .apexcharts-yaxis-texts-g tspan,
+  body .dashboard-container.theme-mode-dark .boxItem 
+  .apexcharts-xaxis g text tspan{
+      fill:rgb(181, 181, 181) !important; 
+  }
+  
+  body .dashboard-container.theme-mode-dark .bg-light{
+      background: #343638 !important; 
+      border-color:rgba(80, 74, 80, 0.8) !important;
+      color:var(--ed-white) !important;
+      fill:var(--ed-white) !important;
+  }
+  
+  body.theme-mode-dark .offcanvas .form-control,
+  body.theme-mode-dark .container-theme::-webkit-scrollbar-thumb{
+      background:var(--ed-dark) !important;
+      border-color: var(--ed-dark) !important;
+      box-shadow: none !important;
+  }
+
+
+
+  body.theme-mode-dark .modal .modal-content{
+    background: #343638 !important; 
+    color:rgb(181, 181, 181) !important; 
+  }
+
+  body.theme-mode-dark .modal .modal-content input,
+  body.theme-mode-dark .modal .modal-content select,
+  body.theme-mode-dark .modal .modal-content textarea{
+    background:var(--ed-dark-light) !important; 
+    color: rgb(226, 223, 223);   
+    border-color:#48484a !important;
+}
+
+body.theme-mode-dark .modal .modal-content .modal-header,
+body.theme-mode-dark .modal .modal-content .modal-footer{
+  border-color:rgb(78, 75, 75);
+}
+
+
+body.theme-mode-dark .upload-container-box,
+body.theme-mode-dark .modal .modal-content .modal-footer .btn.bg-light{
+    background:var(--ed-dark) !important;
+    border-color:rgb(38, 37, 37) !important;
+}
+
+body.theme-mode-dark .modal .modal-content .modal-footer .btn.text-dark{
+    color:rgb(181, 181, 181) !important; 
+}
+
+
+  /**
+  body.theme-mode-dark .offcanvas .offcanvas-header .btn-close{
+    background: transparent url("https://www.iconsdb.com/icons/preview/white/x-mark-xxl.png") center/1em auto no-repeat !important; 
+}
+
+*/
+ 
+
+ 
+
+/*** blue color **/
+
+body.theme-color-blue .honor-board-list .honor-board-box  .over{
+    background:var(--ed-blue) !important;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); 
+}
+
+body.theme-color-blue .btn.bg-main-border{
+    background: none;
+    border:1px solid var(--ed-blue);
+    color: var(--ed-blue);
+}
+
+body.theme-color-blue .bg-main,
+body.theme-color-blue .btn.btn-main,
+body.theme-color-blue .modal .btn.btn-main.btn-primary,
+body.theme-color-blue .offcanvas .btn.btn-primary,
+body .dashboard-container.theme-color-blue .btn.btn-main,
+body .dashboard-container.theme-color-blue #sidebar-left,
+body .dashboard-container.theme-color-blue  .sidebar-menu{
+    background-color:var(--ed-blue) !important;
+}
+
+body.theme-color-blue .time-format-chkbx input:checked + .chkbx-text:before,
+body.theme-color-blue .dhx_cal_tab.active,
+body.theme-color-blue .MuiPickersDay-root.Mui-selected,
+body.theme-color-blue .react-calendar .react-calendar__tile--active,
+body.theme-color-blue  menu .sidebar-box  li.active-page a ,
+body.theme-color-blue .bg-main-light,
+body .dashboard-container.theme-color-blue .student-info-options .active,
+body .dashboard-container.theme-color-blue .ed-edusers-cards .ed-eduser-box li a,
+body .dashboard-container.theme-color-blue #sidebar-left a.active,
+body .dashboard-container.theme-color-blue   .sidebar-menu  .active,
+body .dashboard-container.theme-color-blue    .sidebar-menu ul a:hover{
+    background-color:var(--ed-blue-light) !important;
+}
+
+
+ 
+body.theme-color-blue .signin-area{  
+    background:linear-gradient(to top, transparent 50%, var(--ed-blue) 50%) !important;
+}
+
+body.theme-color-blue .loaderBox .spinnerLoad span::before{ 
+    box-shadow: 0 0 10px  var(--ed-blue-light),
+    0 0 20px  var(--ed-blue-light),
+    0 0 40px  var(--ed-blue-light),
+    0 0 60px  var(--ed-blue-light),
+    0 0 80px  var(--ed-blue-light),
+    0 0 100px var(--ed-blue-light) !important; 
+}
+
+body.theme-color-blue  .text-main, 
+body.theme-color-blue  .text-main svg{
+    color:var(--ed-blue);
+    fill:var(--ed-blue);
+}
+
+body.theme-color-blue form .MuiButtonBase-root .MuiSvgIcon-root,
+body.theme-color-blue  .text-main-light,
+body.theme-color-blue  .text-main-light svg{
+    color:var(--ed-blue-light) !important;
+    fill:var(--ed-blue-light) !important;
+}
+
+
+
+body.theme-color-blue  .border-main-light{
+    border-color: var(--ed-purple-light) !important;
+}
+ 
+
+/*** purple color **/
+
+body.theme-color-purple .signin-area{  
+    background:linear-gradient(to top, transparent 50%, var(--ed-purple) 50%) !important; 
+}
+
+body.theme-color-purple .honor-board-list .honor-board-box  .over{
+    background:var(--ed-purple) !important;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); 
+}
+
+body.theme-color-purple .btn.btn-main-border{
+    background: none !important;
+    border:1px solid var(--ed-purple-light) !important;
+    color: var(--ed-purple-light) !important;
+}
+
+body.theme-color-purple .notification-tabs-header .ed-flex 
+li.active::after,
+body.theme-color-purple .bg-main,
+body.theme-color-purple .btn.btn-main,
+body.theme-color-purple .modal .btn.btn-main.btn-primary,
+body.theme-color-purple .offcanvas .btn.btn-primary,
+body .dashboard-container.theme-color-purple .btn.btn-main,
+body .dashboard-container.theme-color-purple #sidebar-left,
+body .dashboard-container.theme-color-purple  .sidebar-menu{
+    background-color:var(--ed-purple) !important;
+}
+
+body.theme-color-purple .rhap_container button{
+     color:var(--ed-purple-light) !important;
+}
+
+body.theme-color-purple .time-format-chkbx input:checked + .chkbx-text:before,
+body.theme-color-purple .dhx_cal_tab.active,
+body.theme-color-purple .MuiPickersDay-root.Mui-selected,
+body.theme-color-purple .MuiPagination-root ul li button.MuiButtonBase-root.Mui-selected,
+body.theme-color-purple .rhap_container .rhap_volume-indicator,
+body.theme-color-purple .rhap_container .rhap_progress-indicator,
+body.theme-color-purple .rhap_container .rhap_progress-filled,
+body.theme-color-purple .react-calendar .react-calendar__tile--active,
+body.theme-color-purple  menu .sidebar-box  li.active-page a ,
+body.theme-color-purple .bg-main-light,
+body .dashboard-container.theme-color-purple .student-info-options .active,
+body .dashboard-container.theme-color-purple .ed-edusers-cards .ed-eduser-box li a,
+body .dashboard-container.theme-color-purple #sidebar-left a.active,
+body .dashboard-container.theme-color-purple   .sidebar-menu  .active,
+body .dashboard-container.theme-color-purple    .sidebar-menu ul a:hover{
+    background-color:var(--ed-purple-light) !important;
+}
+
+body.theme-color-purple  .border-main-ligh{
+  border-color: var(--ed-purple-light) !important;
+}
+
+body.theme-color-purple  .text-main,
+body.theme-color-purple  .text-main svg{
+    color:var(--ed-purple) !important;
+    fill:var(--ed-purple);
+}
+
+body.theme-color-purple form .MuiButtonBase-root .MuiSvgIcon-root,
+body.theme-color-purple  .text-main-light,
+body.theme-color-purple .MuiCircularProgress-svg,
+body.theme-color-purple  .text-main-light svg{
+    color:var(--ed-purple-light) !important;
+    fill:var(--ed-purple-light) !important;
+}
+
+ 
+body.theme-color-purple .signin-area{  
+    background:linear-gradient(to top, transparent 50%, var(--ed-purple) 50%) !important;
+}
+
+body.theme-color-purple .loaderBox .spinnerLoad span::before{ 
+    box-shadow: 0 0 10px  var(--ed-purple-light),
+    0 0 20px  var(--ed-purple-light),
+    0 0 40px  var(--ed-purple-light),
+    0 0 60px  var(--ed-purple-light),
+    0 0 80px  var(--ed-purple-light),
+    0 0 100px var(--ed-purple-light) !important; 
+}
+
+
+body.theme-color-purple .container-theme .sidebar-boxes 
+ .box.active-sidebar-style .box-option{
+    border-color:var(--ed-purple-light);
+ }
+
+
+/*** orange color **/
+
+body.theme-color-orange .signin-area{  
+    background:linear-gradient(to top, transparent 50%, var(--ed-orange) 50%) !important; 
+}
+
+body.theme-color-orange .honor-board-list .honor-board-box  .over{
+    background:var(--ed-orange);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); 
+}
+
+body.theme-color-orange .notification-tabs-header .ed-flex 
+li.active::after,
+body.theme-color-orange .bg-main,
+body.theme-color-orange .btn.btn-main,
+body.theme-color-orange .modal .btn.btn-main.btn-primary,
+body.theme-color-orange .offcanvas .btn.btn-primary,
+body .dashboard-container.theme-color-orange .btn.btn-main,
+body .dashboard-container.theme-color-orange #sidebar-left,
+body .dashboard-container.theme-color-orange  .sidebar-menu{
+    background-color:var(--ed-orange) !important;
+}
+
+body.theme-color-orange .time-format-chkbx input:checked + .chkbx-text:before,
+body.theme-color-orange .dhx_cal_tab.active,
+body.theme-color-orange .MuiPickersDay-root.Mui-selected,
+body.theme-color-orange .react-calendar .react-calendar__tile--active,
+body.theme-color-orange  menu .sidebar-box  li.active-page a ,
+body.theme-color-orange .bg-main-light,
+body .dashboard-container.theme-color-orange .student-info-options .active,
+body .dashboard-container.theme-color-orange .ed-edusers-cards .ed-eduser-box li a,
+body .dashboard-container.theme-color-orange #sidebar-left a.active,
+body .dashboard-container.theme-color-orange   .sidebar-menu  .active,
+body .dashboard-container.theme-color-orange    .sidebar-menu ul a:hover{
+    background-color:var(--ed-orange-light) !important;
+}
+
+ 
+
+body.theme-color-orange  .border-main-light{
+    border-color: var(--ed-orange-light) !important;
+}
+body.theme-color-orange  .text-main,
+body.theme-color-orange  .text-main svg{
+    color:var(--ed-orange);
+    fill:var(--ed-orange);
+}
+
+ 
+body.theme-color-orange .signin-area{  
+    background:linear-gradient(to top, transparent 50%, var(--ed-orange) 50%) !important;
+}
+
+body.theme-color-orange .loaderBox .spinnerLoad span::before{ 
+    box-shadow: 0 0 10px  var(--ed-orange-light),
+    0 0 20px  var(--ed-orange-light),
+    0 0 40px  var(--ed-orange-light),
+    0 0 60px  var(--ed-orange-light),
+    0 0 80px  var(--ed-orange-light),
+    0 0 100px var(--ed-orange-light) !important; 
+}
+
+ 
+body.theme-color-orange form .MuiButtonBase-root .MuiSvgIcon-root,
+body.theme-color-orange  .text-main-light,
+body.theme-color-orange  .text-main-light svg{
+    color:var(--ed-orange-light) !important;
+    fill:var(--ed-orange-light)  !important;
+}
+
+body.theme-color-orange .container-theme .sidebar-boxes 
+ .box.active-sidebar-style .box-option{
+    border-color:var(--ed-orange);
+ }
+
+
+/*** cyan color **/
+
+body.theme-color-cyan .signin-area{  
+    background:linear-gradient(to top, transparent 50%, var(--ed-cyan) 50%) !important; 
+}
+
+body.theme-color-cyan .honor-board-list .honor-board-box  .over{
+    background:var(--ed-cyan);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); 
+}
+
+
+body.theme-color-cyan .notification-tabs-header .ed-flex 
+li.active::after,
+body.theme-color-cyan .bg-main,
+body.theme-color-cyan .btn.btn-main,
+body.theme-color-cyan .modal .btn.btn-main.btn-primary,
+body.theme-color-cyan .offcanvas .btn.btn-primary,
+body .dashboard-container.theme-color-cyan .btn.btn-main,
+body .dashboard-container.theme-color-cyan #sidebar-left,
+body .dashboard-container.theme-color-cyan  .sidebar-menu{
+    background-color:var(--ed-cyan) !important;
+}
+
+body.theme-color-cyan .time-format-chkbx input:checked + .chkbx-text:before,
+body.theme-color-cyan .dhx_cal_tab.active,
+body.theme-color-cyan .MuiPickersDay-root.Mui-selected,
+body.theme-color-cyan .react-calendar .react-calendar__tile--active,
+body.theme-color-cyan  menu .sidebar-box  li.active-page a ,
+body.theme-color-cyan .bg-main-light,
+body .dashboard-container.theme-color-cyan .student-info-options .active,
+body .dashboard-container.theme-color-cyan .ed-edusers-cards .ed-eduser-box li a,
+body .dashboard-container.theme-color-cyan #sidebar-left a.active,
+body .dashboard-container.theme-color-cyan   .sidebar-menu  .active,
+body .dashboard-container.theme-color-cyan    .sidebar-menu ul a:hover{
+    background-color:var(--ed-cyan-light) !important;
+}
+
+ 
+body.theme-color-cyan .signin-area{  
+    background:linear-gradient(to top, transparent 50%, var(--ed-cyan) 50%) !important;
+}
+
+body.theme-color-cyan .loaderBox .spinnerLoad span::before{ 
+    box-shadow: 0 0 10px  var(--ed-cyan-light),
+    0 0 20px  var(--ed-cyan-light),
+    0 0 40px  var(--ed-cyan-light),
+    0 0 60px  var(--ed-cyan-light),
+    0 0 80px  var(--ed-cyan-light),
+    0 0 100px var(--ed-cyan-light) !important; 
+}
+
+ 
+body.theme-color-cyan  .border-main-light{
+    border-color: var(--ed-cyan-light) !important;
+}
+
+body.theme-color-cyan  .text-main,
+body.theme-color-cyan  .text-main svg{
+    color:var(--ed-cyan);
+}
+
+body .dashboard-container.theme-color-cyan #dashboard-sidebar menu svg{
+    fill:var(--ed-cyan-light) !important;
+}
+
+body.theme-color-cyan .container-theme .sidebar-boxes 
+ .box.active-sidebar-style .box-option{
+    border-color:var(--ed-cyan);
+ } 
+
+ body.theme-color-cyan form .MuiButtonBase-root .MuiSvgIcon-root,
+ body.theme-color-cyan  .text-main-light,
+ body.theme-color-cyan  .text-main-light svg{
+    color:var(--ed-cyan-light) !important;
+    fill:var(--ed-cyan-light) !important;
+}
+
+
+
+/*** green color **/
+
+body.theme-color-green .signin-area{  
+    background:linear-gradient(to top, transparent 50%, var(--ed-green) 50%) !important; 
+}
+
+body.theme-color-green .honor-board-list .honor-board-box  .over{
+    background:var(--ed-green);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); 
+}
+
+
+body.theme-color-green  .notification-tabs-header .ed-flex 
+li.active::after,
+body.theme-color-green .bg-main,
+body.theme-color-green .btn.btn-main,
+body.theme-color-green .modal .btn.btn-main.btn-primary,
+body.theme-color-green .offcanvas .btn.btn-primary,
+body .dashboard-container.theme-color-green .btn.btn-main,
+body .dashboard-container.theme-color-green #sidebar-left,
+body .dashboard-container.theme-color-green  .sidebar-menu{
+    background-color:var(--ed-green) !important;
+}
+
+body.theme-color-green .time-format-chkbx input:checked + .chkbx-text:before,
+body.theme-color-green .dhx_cal_tab.active,
+body.theme-color-green .MuiPickersDay-root.Mui-selected,
+body.theme-color-green .react-calendar .react-calendar__tile--active,
+body.theme-color-green  menu .sidebar-box  li.active-page a ,
+body.theme-color-green .bg-main-light,
+body .dashboard-container.theme-color-green .student-info-options .active,
+body .dashboard-container.theme-color-green .ed-edusers-cards .ed-eduser-box li a,
+body .dashboard-container.theme-color-green #sidebar-left a.active,
+body .dashboard-container.theme-color-green   .sidebar-menu  .active,
+body .dashboard-container.theme-color-green   .sidebar-menu ul a:hover{
+    background-color:var(--ed-green-light) !important;
+}
+
+ 
+body.theme-color-green .signin-area{  
+    background:linear-gradient(to top, transparent 50%, var(--ed-green) 50%) !important;
+}
+
+body.theme-color-green .loaderBox .spinnerLoad span::before{ 
+    box-shadow: 0 0 10px  var(--ed-green-light),
+    0 0 20px  var(--ed-green-light),
+    0 0 40px  var(--ed-green-light),
+    0 0 60px  var(--ed-green-light),
+    0 0 80px  var(--ed-green-light),
+    0 0 100px var(--ed-green-light) !important; 
+}
+
+body.theme-color-green form .MuiButtonBase-root .MuiSvgIcon-root,
+body.theme-color-green  .text-main-light,
+body.theme-color-green  .text-main-light svg{
+    color:var(--ed-green-light) !important;
+    fill:var(--ed-green-light) !important;
+}
+ 
+
+body.theme-color-green  .border-main-light{
+    border-color: var(--ed-green-light) !important;
+}
+
+body.theme-color-green  .text-main,
+body.theme-color-green  .text-main svg{
+    color:var(--ed-green);
+    fill:var(--ed-green);
+}
+
+ 
+body.theme-color-green .container-theme .sidebar-boxes 
+ .box.active-sidebar-style .box-option{
+    border-color:var(--ed-green);
+ }
+
+
+
+/*** red color **/
+
+body.theme-color-red .signin-area{  
+    background:linear-gradient(to top, transparent 50%, var(--ed-red) 50%) !important; 
+}
+
+body.theme-color-red .honor-board-list .honor-board-box  .over{
+    background:var(--ed-red);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); 
+}
+
+body.theme-color-red .notification-tabs-header .ed-flex 
+li.active::after,
+body.theme-color-red .bg-main,
+body.theme-color-red .btn.btn-main,
+body.theme-color-red .modal .btn.btn-main.btn-primary,
+body.theme-color-red .offcanvas .btn.btn-primary,
+body.theme-color-red .btn.btn-main,
+body .dashboard-container.theme-color-red .btn.btn-main,
+body .dashboard-container.theme-color-red #sidebar-left,
+body .dashboard-container.theme-color-red  .sidebar-menu{
+    background-color:var(--ed-red) !important;
+}
+
+body.theme-color-red .time-format-chkbx input:checked + .chkbx-text:before,
+body.theme-color-red .dhx_cal_tab.active,
+body.theme-color-red .MuiPickersDay-root.Mui-selected,
+body.theme-color-red .react-calendar .react-calendar__tile--active,
+body.theme-color-red  menu .sidebar-box  li.active-page a ,
+body.theme-color-red .bg-main-light,
+body .dashboard-container.theme-color-red .student-info-options .active,
+body .dashboard-container.theme-color-red .ed-edusers-cards .ed-eduser-box li a,
+body .dashboard-container.theme-color-red #sidebar-left a.active,
+body .dashboard-container.theme-color-red  .sidebar-menu .active,
+body .dashboard-container.theme-color-red   .sidebar-menu ul a:hover{
+    background-color:var(--ed-red-light) !important;
+}
+
+
+body.theme-color-red  .text-main,
+body.theme-color-red  .text-main svg{
+    color:var(--ed-red);
+}
+
+ 
+body.theme-color-red .signin-area{  
+    background:linear-gradient(to top, transparent 50%, var(--ed-red-color) 50%) !important;
+}
+
+body.theme-color-red .loaderBox .spinnerLoad span::before{ 
+    box-shadow: 0 0 10px  var(--ed-red-light),
+    0 0 20px  var(--ed-red-light),
+    0 0 40px  var(--ed-red-light),
+    0 0 60px  var(--ed-red-light),
+    0 0 80px  var(--ed-red-light),
+    0 0 100px var(--ed-red-light) !important; 
+}
+
+body.theme-color-red form .MuiButtonBase-root .MuiSvgIcon-root, 
+body.theme-color-red  .text-main-light,
+body.theme-color-red  .text-main-light svg{
+    color:var(--ed-red-light) !important;
+    fill:var(--ed-red-light) !important;
+}
+
+body.theme-color-red .container-theme .sidebar-boxes 
+ .box.active-sidebar-style .box-option{
+    border-color:var(--ed-red);
+ }
+
+
+ body.theme-color-red  .border-main-light{
+    border-color: var(--ed-red-light) !important;
+}
+
+
+/*** brown color **/
+
+body.theme-color-brown .signin-area{  
+    background:linear-gradient(to top, transparent 50%, var(--ed-brown) 50%) !important; 
+}
+
+body.theme-color-brown .honor-board-list .honor-board-box  .over{
+    background:var(--ed-brown);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); 
+}
+
+body.theme-color-brown .notification-tabs-header .ed-flex 
+li.active::after,
+body.theme-color-brown .bg-main,
+body.theme-color-brown .btn.btn-main,
+body.theme-color-brown .modal .btn.btn-main.btn-primary,
+body.theme-color-brown .offcanvas .btn.btn-primary,
+body .dashboard-container.theme-color-brown .btn.btn-main,
+body .dashboard-container.theme-color-brown #sidebar-left,
+body .dashboard-container.theme-color-brown  .sidebar-menu{
+    background-color:var(--ed-brown) !important;
+}
+
+body.theme-color-brown .time-format-chkbx input:checked + .chkbx-text:before,
+body.theme-color-brown .dhx_cal_tab.active,
+body.theme-color-brown .MuiPickersDay-root.Mui-selected,
+body.theme-color-brown .react-calendar .react-calendar__tile--active,
+body.theme-color-brown  menu .sidebar-box  li.active-page a ,
+body.theme-color-brown .bg-main-light,
+body .dashboard-container.theme-color-brown .student-info-options .active,
+body .dashboard-container.theme-color-brown .ed-edusers-cards .ed-eduser-box li a,
+body .dashboard-container.theme-color-brown #sidebar-left a.active,
+body .dashboard-container.theme-color-brown   .sidebar-menu  .active,
+body .dashboard-container.theme-color-brown    .sidebar-menu ul a:hover{
+    background-color:var(--ed-brown-light) !important;
+}
+
+ 
+body.theme-color-brown .signin-area{  
+    background:linear-gradient(to top, transparent 50%, var(--ed-brown) 50%) !important;
+}
+
+body.theme-color-brown .loaderBox .spinnerLoad span::before{ 
+    box-shadow: 0 0 10px  var(--ed-brown-light),
+    0 0 20px  var(--ed-brown-light),
+    0 0 40px  var(--ed-brown-light),
+    0 0 60px  var(--ed-brown-light),
+    0 0 80px  var(--ed-brown-light),
+    0 0 100px var(--ed-brown-light) !important; 
+}
+
+body.theme-color-brown form .MuiButtonBase-root .MuiSvgIcon-root,
+body.theme-color-brown  .text-main-light,
+body.theme-color-brown  .text-main-light svg{
+    color:var(--ed-brown-light) !important;
+    fill:var(--ed-brown-light) !important;
+}
+  
+body.theme-color-brown  .border-main-light{
+    border-color: var(--ed-brown-light) !important;
+}
+
+body.theme-color-brown  .text-main,
+body.theme-color-brown  .text-main svg{
+    color:var(--ed-brown);
+    fill:var(--ed-brown);
+}
+
+
+body.theme-color-brown .container-theme .sidebar-boxes 
+.box.active-sidebar-style .box-option{
+    border-color:var(--ed-brown);
+}
+
+
+
+
+/*** pink color **/
+
+body.theme-color-pink .signin-area{  
+    background:linear-gradient(to top, transparent 50%, var(--ed-pink) 50%) !important; 
+}
+
+body.theme-color-pink .honor-board-list .honor-board-box  .over{
+    background:var(--ed-dark);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); 
+}
+
+body.theme-color-pink .notification-tabs-header .ed-flex 
+li.active::after,
+body.theme-color-pink .bg-main,
+body.theme-color-pink .btn.btn-main,
+body.theme-color-pink .modal .btn.btn-main.btn-primary,
+body.theme-color-pink .offcanvas .btn.btn-primary,
+body.theme-color-pink .btn.btn-main,
+body .dashboard-container.theme-color-pink .btn.btn-main,
+body .dashboard-container.theme-color-pink #sidebar-left,
+body .dashboard-container.theme-color-pink  .sidebar-menu{
+    background-color:var(--ed-pink) !important;
+}
+
+body.theme-color-pink .time-format-chkbx input:checked + .chkbx-text:before,
+body.theme-color-pink .dhx_cal_tab.active,
+body.theme-color-pink .MuiPickersDay-root.Mui-selected,
+body.theme-color-pink .react-calendar .react-calendar__tile--active,
+body.theme-color-pink  menu .sidebar-box  li.active-page a ,
+body.theme-color-pink .bg-main-light,
+body .dashboard-container.theme-color-pink .student-info-options .active,
+body .dashboard-container.theme-color-pink .ed-edusers-cards .ed-eduser-box li a,
+body .dashboard-container.theme-color-pink #sidebar-left a.active,
+body .dashboard-container.theme-color-pink  .sidebar-menu .active,
+body .dashboard-container.theme-color-pink   .sidebar-menu ul a:hover{
+    background-color:var(--ed-pink-light) !important;
+}
+
+body.theme-color-pink form .MuiButtonBase-root .MuiSvgIcon-root,
+body.theme-color-pink  .text-main-light,
+body.theme-color-pink  .text-main-light svg{
+    color:var(--ed-pink-light) !important;
+    fill:var(--ed-pink-light) !important;
+}
+
+
+body.theme-color-pink  .text-main{
+    color:var(--ed-pink);
+}
+
+
+body.theme-color-brown  .border-main-light{
+    border-color: var(--ed-brown-light) !important;
+}
+  
+body.theme-color-pink .signin-area{  
+    background:linear-gradient(to top, transparent 50%, var(--ed-pink) 50%) !important;
+}
+
+body.theme-color-pink .loaderBox .spinnerLoad span::before{ 
+    box-shadow: 0 0 10px  var(--ed-pink-light),
+    0 0 20px  var(--ed-pink-light),
+    0 0 40px  var(--ed-pink-light),
+    0 0 60px  var(--ed-pink-light),
+    0 0 80px  var(--ed-pink-light),
+    0 0 100px var(--ed-pink-light) !important; 
+}
+
+
+body.theme-color-pink .container-theme .sidebar-boxes 
+.box.active-sidebar-style .box-option{
+    border-color:var(--ed-pink);
+ }
+
+
+
+
+
+/*** customer color **/
+
+body.theme-color-customer .signin-area{  
+    background:linear-gradient(to top, transparent 50%, var(--ed-customer-color) 50%) !important; 
+}
+
+body.theme-color-customer .honor-board-list .honor-board-box  .over{
+    background:var(--ed-dark);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); 
+}
+
+body.theme-color-customer .notification-tabs-header .ed-flex 
+li.active::after,
+body.theme-color-customer .bg-main,
+body.theme-color-customer .btn.btn-main,
+body.theme-color-customer .modal .btn.btn-main.btn-primary,
+body.theme-color-customer .offcanvas .btn.btn-primary,
+body.theme-color-customer .btn.btn-main,
+body .dashboard-container.theme-color-customer .btn.btn-main,
+body .dashboard-container.theme-color-customer #sidebar-left,
+body .dashboard-container.theme-color-customer  .sidebar-menu{
+    background-color:var(--ed-customer-color) !important;
+}
+
+body.theme-color-customer .time-format-chkbx input:checked + .chkbx-text:before,
+body.theme-color-customer .dhx_cal_tab.active,
+body.theme-color-customer .MuiPickersDay-root.Mui-selected,
+body.theme-color-customer .react-calendar .react-calendar__tile--active,
+body.theme-color-customer menu .sidebar-box  ol li.active-page  a,
+body.theme-color-customer .bg-main-light,
+body .dashboard-container.theme-color-customer .student-info-options .active,
+body .dashboard-container.theme-color-customer .ed-edusers-cards .ed-eduser-box li a,
+body .dashboard-container.theme-color-customer #sidebar-left a.active,
+body .dashboard-container.theme-color-customer  .sidebar-menu .active,
+body .dashboard-container.theme-color-customer   .sidebar-menu ul a:hover{
+    background:var(--ed-customer-color-light) !important;
+}
+
+ 
+body.theme-color-customer .signin-area{  
+    background:linear-gradient(to top, transparent 50%, var(--ed-customer-color) 50%) !important;
+}
+
+body.theme-color-customer .loaderBox .spinnerLoad span::before{ 
+    box-shadow: 0 0 10px  var(--ed-customer-color-light),
+    0 0 20px  var(--ed-customer-color-light),
+    0 0 40px  var(--ed-customer-color-light),
+    0 0 60px  var(--ed-customer-color-light),
+    0 0 80px  var(--ed-customer-color-light),
+    0 0 100px var(--ed-customer-color-light) !important; 
+}
+
+
+body.theme-color-customer  .text-main,
+body.theme-color-customer  .text-main svg{
+    color:var(--ed-customer-color);
+    fill:var(--ed-customer-color);
+}
+ 
+
+body.theme-color-customer .container-theme .sidebar-boxes 
+.box.active-sidebar-style .box-option{
+    border-color:var(--ed-customer-color);
+ }
+
+
+body.theme-color-customer form .MuiButtonBase-root .MuiSvgIcon-root,
+body.theme-color-customer  .text-main-light,
+body.theme-color-customer  .text-main-light svg{
+    color:var(--ed-customer-color-light) !important;
+    fill:var(--ed-customer-color-light) !important;
+}
+
+
+body.theme-color-customer  .border-main-light{
+    border-color: var(--ed-customer-color-light) !important;
+}  
+
+ /* sidebar style dark **/
+
+ body.sidebar-dark-main #eduall .dashboard-container.theme-color-customer #sidebar-left,
+ body.sidebar-dark-main #eduall .dashboard-container.theme-color-customer  .sidebar-menu, 
+
+ body.sidebar-dark-main #eduall .dashboard-container.theme-color-purple #sidebar-left,
+ body.sidebar-dark-main #eduall .dashboard-container.theme-color-purple  .sidebar-menu, 
+
+ body.sidebar-dark-main #eduall .dashboard-container.theme-color-pink #sidebar-left,
+ body.sidebar-dark-main #eduall .dashboard-container.theme-color-pink  .sidebar-menu, 
+
+ body.sidebar-dark-main #eduall .dashboard-container.theme-color-green #sidebar-left,
+ body.sidebar-dark-main #eduall .dashboard-container.theme-color-green  .sidebar-menu, 
+ 
+ body.sidebar-dark-main #eduall .dashboard-container.theme-color-cyan #sidebar-left,
+ body.sidebar-dark-main #eduall .dashboard-container.theme-color-cyan  .sidebar-menu, 
+
+ body.sidebar-dark-main #eduall .dashboard-container.theme-color-brown #sidebar-left,
+ body.sidebar-dark-main #eduall .dashboard-container.theme-color-brown  .sidebar-menu, 
+ 
+ body.sidebar-dark-main #eduall .dashboard-container.theme-color-red #sidebar-left,
+ body.sidebar-dark-main #eduall .dashboard-container.theme-color-red  .sidebar-menu, 
+
+ body.sidebar-dark-main #eduall .dashboard-container.theme-color-orange #sidebar-left,
+ body.sidebar-dark-main #eduall .dashboard-container.theme-color-orange  .sidebar-menu, 
+
+ body.sidebar-dark-main #eduall .dashboard-container.theme-color-blue #sidebar-left,
+ body.sidebar-dark-main #eduall .dashboard-container.theme-color-blue  .sidebar-menu{
+    background:black !important;
+ }
+
+/** sidebar light */
+
+body.sidebar-light-main  #eduall .dashboard-container .bg-main.profile-menu-bar,
+body.sidebar-light-main  #eduall .dashboard-container.theme-color-customer #sidebar-left,
+body.sidebar-light-main  #eduall .dashboard-container.theme-color-customer  .sidebar-menu, 
+
+ body.sidebar-light-main  #eduall .dashboard-container.theme-color-purple #sidebar-left,
+ body.sidebar-light-main  #eduall .dashboard-container.theme-color-purple  .sidebar-menu, 
+
+ body.sidebar-light-main  #eduall .dashboard-container.theme-color-pink #sidebar-left,
+ body.sidebar-light-main  #eduall .dashboard-container.theme-color-pink  .sidebar-menu, 
+
+ body.sidebar-light-main  #eduall .dashboard-container.theme-color-green #sidebar-left,
+ body.sidebar-light-main  #eduall .dashboard-container.theme-color-green  .sidebar-menu, 
+ 
+ body.sidebar-light-main  #eduall .dashboard-container.theme-color-cyan #sidebar-left,
+ body.sidebar-light-main  #eduall .dashboard-container.theme-color-cyan  .sidebar-menu, 
+
+ body.sidebar-light-main  #eduall .dashboard-container.theme-color-brown #sidebar-left,
+ body.sidebar-light-main  #eduall .dashboard-container.theme-color-brown  .sidebar-menu, 
+ 
+ body.sidebar-light-main  #eduall .dashboard-container.theme-color-red #sidebar-left,
+ body.sidebar-light-main  #eduall .dashboard-container.theme-color-red  .sidebar-menu, 
+
+ body.sidebar-light-main  #eduall .dashboard-container.theme-color-orange #sidebar-left,
+ body.sidebar-light-main  #eduall .dashboard-container.theme-color-orange  .sidebar-menu, 
+
+ body.sidebar-light-main  #eduall .dashboard-container.theme-color-blue #sidebar-left,
+ body.sidebar-light-main  #eduall .dashboard-container.theme-color-blue  .sidebar-menu{
+    background:var(--ed-white) !important;
+ }
+
+
+ body.sidebar-light-main  #eduall .dashboard-container .sidebar-menu a svg,
+ body.sidebar-light-main  #eduall .dashboard-container.theme-color-customer #sidebar-left ul div a svg,
+ body.sidebar-light-main  #eduall .dashboard-container.theme-color-red #sidebar-left ul div a svg,
+ body.sidebar-light-main  #eduall .dashboard-container.theme-color-green #sidebar-left ul div a svg,
+ body.sidebar-light-main  #eduall .dashboard-container.theme-color-cyan #sidebar-left ul div a svg,
+ body.sidebar-light-main  #eduall .dashboard-container.theme-color-brown #sidebar-left ul div a svg,
+ body.sidebar-light-main  #eduall .dashboard-container.theme-color-orange #sidebar-left ul div a svg,
+ body.sidebar-light-main  #eduall .dashboard-container.theme-color-blue #sidebar-left ul div a svg,
+ body.sidebar-light-main  #eduall .dashboard-container.theme-color-purple #sidebar-left ul div a svg,
+ body.sidebar-light-main  #eduall .dashboard-container.theme-color-pink #sidebar-left ul div a svg{
+    fill: var(--ed-dark-light) !important;
+}
+
+
+body.sidebar-light-main  #eduall .dashboard-container .sidebar-menu a span{
+    color:var(--ed-dark-light) !important;
+}
+
+
+body.sidebar-light-main  #eduall .dashboard-container .sidebar-menu a.active span{
+    color:var(--ed-white) !important;
+}
+
+body.sidebar-light-main  #eduall .dashboard-container .sidebar-menu a.active svg,
+body.sidebar-light-main  #eduall .dashboard-container.theme-color-customer #sidebar-left ul div a.active svg,
+body.sidebar-light-main  #eduall .dashboard-container.theme-color-red #sidebar-left ul div a.active svg,
+body.sidebar-light-main  #eduall .dashboard-container.theme-color-green #sidebar-left ul div a.active svg,
+body.sidebar-light-main  #eduall .dashboard-container.theme-color-cyan #sidebar-left ul div a.active svg,
+body.sidebar-light-main  #eduall .dashboard-container.theme-color-brown #sidebar-left ul div a.active svg,
+body.sidebar-light-main  #eduall .dashboard-container.theme-color-orange #sidebar-left ul div a.active svg,
+body.sidebar-light-main  #eduall .dashboard-container.theme-color-blue #sidebar-left ul div a.active svg,
+body.sidebar-light-main  #eduall .dashboard-container.theme-color-purple #sidebar-left ul div a.active svg,
+body.sidebar-light-main  #eduall .dashboard-container.theme-color-pink #sidebar-left ul div a.active svg{
+    fill:var(--ed-white) !important;
+}
+
+
+ 
+
+ body.theme-mode-dark.sidebar-dark-main #eduall .dashboard-container.theme-color-purple #sidebar-left,
+ body.theme-mode-dark.sidebar-dark-main #eduall .dashboard-container.theme-color-purple  .sidebar-menu, 
+
+ body.theme-mode-dark.sidebar-dark-main #eduall .dashboard-container.theme-color-pink #sidebar-left,
+ body.theme-mode-dark.sidebar-dark-main #eduall .dashboard-container.theme-color-pink  .sidebar-menu, 
+
+ body.theme-mode-dark.sidebar-dark-main #eduall .dashboard-container.theme-color-green #sidebar-left,
+ body.theme-mode-dark.sidebar-dark-main #eduall .dashboard-container.theme-color-green  .sidebar-menu, 
+ 
+ body.theme-mode-dark.sidebar-dark-main #eduall .dashboard-container.theme-color-cyan #sidebar-left,
+ body.theme-mode-dark.sidebar-dark-main #eduall .dashboard-container.theme-color-cyan  .sidebar-menu, 
+
+ body.theme-mode-dark.sidebar-dark-main #eduall .dashboard-container.theme-color-brown #sidebar-left,
+ body.theme-mode-dark.sidebar-dark-main #eduall .dashboard-container.theme-color-brown  .sidebar-menu, 
+ 
+ body.theme-mode-dark.sidebar-dark-main #eduall .dashboard-container.theme-color-red #sidebar-left,
+ body.theme-mode-dark.sidebar-dark-main #eduall .dashboard-container.theme-color-red  .sidebar-menu, 
+
+ body.theme-mode-dark.sidebar-dark-main #eduall .dashboard-container.theme-color-orange #sidebar-left,
+ body.theme-mode-dark.sidebar-dark-main #eduall .dashboard-container.theme-color-orange  .sidebar-menu, 
+
+ body.theme-mode-dark.sidebar-dark-main #eduall .dashboard-container.theme-color-blue #sidebar-left,
+ body.theme-mode-dark.sidebar-dark-main #eduall .dashboard-container.theme-color-blue  .sidebar-menu{
+    background:var(--ed-dark-light) !important;
+ }
+
+ 
+
+
+ body.sidebar-dark-main #eduall .dashboard-container.theme-mode-dark-blue #sidebar-left{
+   background:#373F51 !important; 
+ }
+  
+
+ body.sidebar-dark-main #eduall .dashboard-container.theme-color-purple #sidebar-left .sidebar-menu a.active,
+ body.sidebar-dark-main #eduall .dashboard-container.theme-color-purple #sidebar-left a.active{
+    background:var(--ed-purple) !important;
+ }
+
+ body.sidebar-dark-main #eduall .dashboard-container.theme-color-blue #sidebar-left  .sidebar-menu a.active,
+ body.sidebar-dark-main #eduall .dashboard-container.theme-color-blue #sidebar-left a.active{
+    background-color:var(--ed-blue) !important;
+ }
+
+ body.sidebar-dark-main #eduall .dashboard-container.theme-color-pink #sidebar-left  .sidebar-menu a.active,
+ body.sidebar-dark-main #eduall .dashboard-container.theme-color-pink #sidebar-left a.active{
+    background-color:var(--ed-pink) !important;
+ }
+
+ body.sidebar-dark-main #eduall .dashboard-container.theme-color-green #sidebar-left  .sidebar-menu .active,
+ body.sidebar-dark-main #eduall .dashboard-container.theme-color-green #sidebar-left a.active{
+    background-color:var(--ed-green) !important;
+ }
+
+ body.sidebar-dark-main #eduall .dashboard-container.theme-color-cyan #sidebar-left .sidebar-menu .active,
+ body.sidebar-dark-main #eduall .dashboard-container.theme-color-cyan #sidebar-left a.active{
+    background-color:var(--ed-cyan) !important;
+ }
+
+ body.sidebar-dark-main #eduall .dashboard-container.theme-color-orange #sidebar-left  .sidebar-menu .active,
+ body.sidebar-dark-main #eduall .dashboard-container.theme-color-orange #sidebar-left a.active{
+    background-color:var(--ed-orange) !important;
+ }
+
+ body.sidebar-dark-main #eduall .dashboard-container.theme-color-brown #sidebar-left .sidebar-menu .active,
+ body.sidebar-dark-main #eduall .dashboard-container.theme-color-brown #sidebar-left a.active{
+    background-color:var(--ed-brown) !important;
+ }
+
+ body.sidebar-dark-main #eduall .dashboard-container.theme-color-red #sidebar-left .sidebar-menu .active,
+ body.sidebar-dark-main #eduall .dashboard-container.theme-color-red #sidebar-left a.active{
+    background-color:var(--ed-red) !important;
+ }
+
+ body .dashboard-container.theme-mode-dark  #dashboard-sidebar menu svg,
+ body .dashboard-container.theme-mode-dark-blue  #dashboard-sidebar menu svg{
+    fill: var(--ed-silver) !important;
+}
+
+ /*sidebat style light **/
+
+ 
+ body.theme-mode-light-bar #eduall .dashboard-container.theme-color-purple #sidebar-left,
+ body.theme-mode-light-bar #eduall .dashboard-container.theme-color-purple  .sidebar-menu, 
+
+ body.theme-mode-light-bar #eduall .dashboard-container.theme-color-pink #sidebar-left,
+ body.theme-mode-light-bar #eduall .dashboard-container.theme-color-pink  .sidebar-menu, 
+
+ body.theme-mode-light-bar #eduall .dashboard-container.theme-color-green #sidebar-left,
+ body.theme-mode-light-bar #eduall .dashboard-container.theme-color-green  .sidebar-menu, 
+ 
+ body.theme-mode-light-bar #eduall .dashboard-container.theme-color-cyan #sidebar-left,
+ body.theme-mode-light-bar #eduall .dashboard-container.theme-color-cyan  .sidebar-menu, 
+
+ body.theme-mode-light-bar #eduall .dashboard-container.theme-color-brown #sidebar-left,
+ body.theme-mode-light-bar #eduall .dashboard-container.theme-color-brown  .sidebar-menu, 
+ 
+ body.theme-mode-light-bar #eduall .dashboard-container.theme-color-red #sidebar-left,
+ body.theme-mode-light-bar #eduall .dashboard-container.theme-color-red  .sidebar-menu, 
+
+ body.theme-mode-light-bar #eduall .dashboard-container.theme-color-orange #sidebar-left,
+ body.theme-mode-light-bar #eduall .dashboard-container.theme-color-orange  .sidebar-menu, 
+
+ body.theme-mode-light-bar #eduall .dashboard-container.theme-color-customer #sidebar-left,
+ body.theme-mode-light-bar #eduall .dashboard-container.theme-color-customer  .sidebar-menu, 
+
+
+ body.theme-mode-light-bar #eduall .dashboard-container.theme-color-blue #sidebar-left,
+ body.theme-mode-light-bar #eduall .dashboard-container.theme-color-blue  .sidebar-menu{
+    background:var(--ed-white) !important;
+ }
+
+
+ body.theme-mode-light-bar #eduall .dashboard-container .sidebar-menu a svg,
+ body.theme-mode-light-bar #eduall .dashboard-container #sidebar-left ul div a svg{
+    fill:var(--ed-blue-dark) !important;
+ }
+
+ body.theme-mode-light-bar #eduall .dashboard-container .sidebar-menu a:hover span, 
+ body.theme-mode-light-bar #eduall .dashboard-container .sidebar-menu .active span{
+    color:var(--ed-white) !important;
+ }
+
+ 
+ body.theme-mode-light-bar #eduall .dashboard-container .sidebar-menu .active svg{
+    fill:var(--ed-white) !important;
+ }
+
+
+ body.theme-mode-light-bar #eduall .dashboard-container .sidebar-menu a span{
+    color:var(--ed-dark) !important;
+ }
+
+
+ body.theme-mode-light-bar #eduall .dashboard-container .sidebar-menu a:hover svg,
+ body.theme-mode-light-bar #eduall .dashboard-container #sidebar-left ul div a.active svg{
+    fill:var(--ed-white) !important;
+ }
+
+
+ body.theme-mode-light-bar #eduall .Chat-container .sidebar-left .left-menu.bg-main{
+   background:var(--ed-white) !important; 
+ }
+
+
+ body.theme-mode-light-bar #eduall .Chat-container .sidebar-left .left-menu.bg-main .menu-items{  
+    border-right:1px solid #E9ECEF !important;
+ }
+ 
+ body.theme-mode-light-bar #eduall .Chat-container .sidebar-left svg{
+    fill:var(--ed-blue-dark) !important;
+ }
+ 
+
+ body .offcanvas form .btn.btn-light.btn-primary{
+    border:1px solid rgb(230, 228, 228) !important; 
+    background:#f8f9fa !important;
+    box-shadow:unset !important;
+}

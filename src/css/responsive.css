@@ -1,0 +1,77 @@
+
+/***laptops */
+@media screen and (max-width:1490px){
+ 
+
+   body .Chat-container .chat-users ul{
+      max-height:35vh !important;
+   }
+
+  body .ed-edusers-cards .pd-1{
+     width:49.9% !important;  
+  } 
+ 
+   body .ed-edusers-cards .ed-eduser-box{
+       min-height:480px !important;  
+   } 
+
+   body .small-grids .ed-eduser-box{
+      min-height:350px !important;  
+   }
+
+  
+
+  body .dashboard-container .ed-edusers-cards .pd-1-v{
+      width:33.3%;
+  }
+
+  body .Chat-container .message-content
+ .message-box .block .ed-flex .text-box{
+     max-width:400px !important;
+ } 
+
+ body .Chat-container .message-bottom form input{
+   width:80%;
+ }
+   
+}
+
+/**  Mobiles */
+@media screen and (min-width:600px){
+    /** account */
+     body .signin-area  form .btn{
+        width:100%;
+        min-width:100%; 
+     }
+}
+
+
+/**  Laptops */
+@media screen and (max-width:1720px){
+   body .ed-edusers-cards .ed-eduser-box{
+      min-height:450px !important; 
+  } 
+  body .small-grids .ed-eduser-box{
+   min-height:350px !important;  
+  }
+}
+
+
+
+/**  Laptops */
+@media screen and (max-width:1600px){ 
+   body .dashboard-container .ed-edusers-cards .pd-1-v{
+        width:33.3% !important;
+   }
+}
+
+@media only screen and (max-width: 760px),
+ (min-device-width: 768px) and (max-device-width: 1024px){ 
+td {
+   /* Behave  like a "row" */
+   border: none;
+   border-bottom: 1px solid #eee;
+   position: relative;
+   padding-left: 50% !important; /* Added important here */
+} 
+}
