@@ -4,9 +4,11 @@ import styled from 'styled-components';
 import Img_1 from '../../Assets/images/svg/docs.svg';
 import Img_2 from '../../Assets/images/svg/images.svg';
 import Img_3 from '../../Assets/images/svg/videos.svg';
+import Img_4 from '../../Assets/images/svg/network.svg';
 import  DocImg from '../../Assets/images/svg/doc.png';
 import { Delete } from '@material-ui/icons';
 import ReduceTextLength from './ReduceTextLength';
+import CheckinternetStatus from './CheckinternetStatus';
 
 const FileType = [
    "image/png", 
@@ -61,7 +63,8 @@ const FileUpload = forwardRef((props, ref) => {
   return (
      <Container className="upload-container-box">
          <label htmlFor={props.input_name}>
-            <div  className={props.size ? "upload-container small" : "upload-container"}>
+            {CheckinternetStatus()  ? 
+               <div  className={props.size ? "upload-container small" : "upload-container"}>
                  <div className="icon">
                     <img loading="lazy" role="presentation" src={FileIcons[props.Icon].img} alt={props.input_name} />
                  </div>
@@ -70,11 +73,25 @@ const FileUpload = forwardRef((props, ref) => {
                      <span className='text-main-light'> carregar apenas ficheiros do tipo {props.extensions} </span>)
                  </h4>
             </div>
+            : <>
+               <div  className={props.size ? "upload-container small" : "upload-container"}>
+                 <div className="icon">
+                    <img loading="lazy" role="presentation" src={Img_4} alt={props.input_name} />
+                 </div>
+                 <h4>
+                     conecte-se a uma rede wifi
+                 </h4>
+            </div>
+            </> } 
          </label>
+         {CheckinternetStatus()  ? 
          <label htmlFor={props.input_name}> 
               <button className="btn btn-main"> {props.text ? props.text : 'Carregar ficheiros'} </button>
           </label>
-       <input type="file" onChange={InputChange}  multiple={props.single ? false : true}   name={props.input_name} hidden id={props.input_name} accept={props.type_of_files} />
+          : <></> }
+          {CheckinternetStatus()  ?  <input type="file" onChange={InputChange}  multiple={props.single ? false : true} 
+          name={props.input_name} hidden id={props.input_name} accept={props.type_of_files} />  : <></> }
+       
 
        <div  className={fileList.length >= 1 ? "file-loader"  : "d-none"}>
          <div className="clear bg-danger" onClick={ClearFiles} ><Delete/> Remover ficheiros </div> 
