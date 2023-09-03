@@ -6,8 +6,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { ToastContainer } from 'react-toastify'; 
 import AccessForm from '../Dashboard/pages/AccessForm'; 
 import Setup from '../CompanySetup/Setup'; 
-import PAGAMENTO from '../Dashboard/components/Grid/Upload.jsx';  
-import UserVoiceCall from '../General/UserVoiceCall';
+import PAGAMENTO from '../Dashboard/components/Grid/Upload.jsx';   
 import VideoChat from '../General/VideoChat'; 
 import NotFounded from '../General/components/NotFounded';
 import ConnectionBadge from '../General/components/ConnectionBadge';
@@ -104,8 +103,7 @@ document.body.classList.add(themeReducer.color);
     <Route path='/Setup' component={Setup} />
     <Route path='/pagamento' component={PAGAMENTO} />  
     <Route path='/access' component={AccessForm} />
-   
-    <Route path='/uservoicecall' component={UserVoiceCall}/> 
+    
     <Route path='/videochat' component={VideoChat}/> 
 
 
